@@ -65,3 +65,7 @@ There are several other SAST and DAST tools that are available for various diffe
 The ongoing battle against cyber threats necessitates a fortified defense, and understanding the strategic deployment of SAST and DAST methodologies provides a significant advantage. Remember, the goal isn't just to develop applications but to secure them in a manner that is both efficient and scalable.
 
 I hope this deep dive gives you valuable insights into securing your applications. If you found this post helpful, please like, share, and subscribe. Your support fuels my passion, and I look forward to sharing more with you. Until next time, keep coding securely!
+
+----
+
+_This blogs original content is based off of the following youtube video: [What is SAST and DAST?](https://www.youtube.com/watch?v=Nz7WCh9HQpo&t=1s)_
