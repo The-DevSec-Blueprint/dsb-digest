@@ -3,7 +3,7 @@ title: Exploring the World of SAST and DAST for DevSecOps and AppSec Engineers
 slug: exploring-world-of-sast-and-dast
 tags: devsecops, application security, sast, dast
 domain: damienjburks.hashnode.dev
-saveAsDraft: true
+saveAsDraft: false
 ---
 
 ### Introduction
@@ -64,7 +64,7 @@ Equipped with knowledge, let's talk tools. Based on my research and hands-on exp
   - [OWASP ZAP](https://www.zaproxy.org) (Open Source)
   - [Burp Suite](https://portswigger.net/burp) (Open Source)
 
-In addition to the ones mentioned, there are several other SAST and DAST tools that are available for various different services if you're interested in learning more.
+In addition to the ones mentioned, there are several other SAST and DAST tools that are available for various different services if you're interested in learning more:
 
 #### Figure 3: [DAST and SAST Tools/Frameworks](https://miro.medium.com/v2/resize:fit:720/format:webp/1*ovjOeWWoqzHeN6TvXbOeQQ.png)
 <div style="text-align:center;">
