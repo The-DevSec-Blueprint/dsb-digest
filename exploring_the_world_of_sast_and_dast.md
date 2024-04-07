@@ -82,6 +82,7 @@ I hope this deep dive gives you valuable insights into securing your application
 ----
 
 ### Footnotes
-_This blogs original content is based off of the following youtube video: [What is SAST and DAST?](https://www.youtube.com/watch?v=Nz7WCh9HQpo&t=1s)_
+_This blogs original content is based off of the following youtube video:_
+[![What is SAST and DAST?](https://img.youtube.com/vi/Nz7WCh9HQpo/0.jpg)](https://www.youtube.com/watch?v=Nz7WCh9HQpo)
 
 _All images located in the blog post have been sourced from different places. Click on the image to get redirected to the original source._
