@@ -1,9 +1,9 @@
 ---
-title: Exploring the World of SAST and DAST for DevSecOps and AppSec Engineers
-subtitle: SAST and DAST Powers Reveiled in a DevSecOps Light!
+title: Exploring the World of SAST and DAST with a DevSecOps Twist
+subtitle: Defining SAST and DAST in Layman's terms for DevSecOps Professionals
 slug: exploring-world-of-sast-and-dast
 tags: devsecops, application security, sast, dast
-cover: https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/exploring_the_world_of_sasts_and_dast/cover.jpg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712457482240/ROloDJ_Yo.jpg?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: false
 ---
