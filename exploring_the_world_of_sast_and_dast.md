@@ -1,14 +1,16 @@
 ---
 title: Exploring the World of SAST and DAST for DevSecOps and AppSec Engineers
+subtitle: SAST and DAST Powers Reveiled in a DevSecOps Light!
 slug: exploring-world-of-sast-and-dast
 tags: devsecops, application security, sast, dast
+cover: https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/exploring_the_world_of_sasts_and_dast/cover.jpg
 domain: damienjburks.hashnode.dev
 saveAsDraft: false
 ---
 
 ### Introduction
 
-As a software developer deeply immersed in the world of application security and DevSecOps, nothing excites me more than sharing my knowledge and passion for safeguarding applications against the myriad of cyber threats lurking in the digital world. In this blog post, we will embark on a fascinating journey through two pivotal concepts that keep your favorite apps secure: SAST and DAST.
+As a Cloud Security Engineer deeply immersed in the world of Application Security and DevSecOps, nothing excites me more than sharing my knowledge and passion for safeguarding applications against the myriad of cyber threats lurking in the digital world. In this blog post, we will embark on a fascinating journey through two pivotal concepts that keep your favorite apps secure: SAST and DAST.
 
 ---
 
