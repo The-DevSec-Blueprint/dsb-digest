@@ -24,6 +24,7 @@ class PostPublisher:
                 if post_content["frontmatterData"]["saveAsDraft"] is False
                 else False
             )
+            print(to_publish)
 
             article_id = None
             is_currently_published = False

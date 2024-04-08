@@ -87,7 +87,6 @@ class DevToClient:
                     return article
 
     def _generate_header(self):
-        print(API_TOKEN)
         headers = {
             "api_key": API_TOKEN,
             "Content-Type": "application/json",
