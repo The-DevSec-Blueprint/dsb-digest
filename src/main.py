@@ -4,6 +4,7 @@ import frontmatter
 import logging
 
 from client.devto_client import DevToClient
+from client.medium_client import MediumClient
 
 logging.basicConfig(level=logging.INFO)
 
@@ -11,6 +12,7 @@ logging.basicConfig(level=logging.INFO)
 class PostPublisher:
     def __init__(self) -> None:
         self.devto_client = DevToClient()
+        self.medium_client = MediumClient()
         self.logging = logging.getLogger(__name__)
 
     def publish_to_devto(self):
@@ -24,7 +26,6 @@ class PostPublisher:
                 if post_content["frontmatterData"]["saveAsDraft"] is False
                 else False
             )
-            print(to_publish)
 
             article_id = None
             is_currently_published = False
@@ -68,6 +69,36 @@ class PostPublisher:
                         post_content["frontmatterData"]["title"],
                     )
 
+    def publish_to_medium(self):
+        all_articles = self.devto_client.get_articles()
+        md_files = self._get_list_of_markdown_files()
+
+        for md_file in md_files:
+            post_content = self._get_post_content(md_file)
+            to_publish = (
+                True
+                if post_content["frontmatterData"]["saveAsDraft"] is False
+                else False
+            )
+
+            for article in all_articles:
+                # Check to see if article is in them
+                if article["type_of"] == "article":
+                    if article["title"] == post_content["frontmatterData"]["title"]:
+                        self.logging.info(
+                            "Found article, %s",
+                            post_content["frontmatterData"]["title"],
+                        )
+                        article_id = article["id"]
+                        is_currently_published = article["published"]
+                        break
+
+            body_html = self.devto_client.get_article(article_id, is_currently_published)['body_html']
+            post_content["bodyHtml"] = body_html
+            print(body_html)
+            
+            self.medium_client.publish_article(post_content)
+
     def _get_post_content(self, md_file):
         with open(md_file, "r") as f:
             markdown_text = f.read()
@@ -97,3 +128,4 @@ class PostPublisher:
 if __name__ == "__main__":
     publisher = PostPublisher()
     publisher.publish_to_devto()
+    #publisher.publish_to_medium()
