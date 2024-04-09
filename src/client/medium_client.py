@@ -1,8 +1,11 @@
 from os import environ
 import requests
-import json
+import logging
 
-API_TOKEN = "28f0bcdb8b767cf34e3ec3af784d65361644a43cbd2d2f0ccc83e42084fa97c54"
+logging.basicConfig(level=logging.INFO)
+
+
+API_TOKEN = environ["MEDIUM_API_TOKEN"]
 MEDIUM_API = "https://api.medium.com/v1"
 
 DEFAULT_HEADERS = {
@@ -15,6 +18,7 @@ DEFAULT_HEADERS = {
 class MediumClient:
 
     def __init__(self) -> None:
+        self.logging = logging.getLogger(__name__)
         self.user_id = self._get_authenticated_user()["data"]["id"]
 
     def get_articles(self):
@@ -23,11 +27,28 @@ class MediumClient:
             headers=DEFAULT_HEADERS,
         )
 
+        self.logging.info("Retrieved articles: %s", response)
         return response.json()
 
     def publish_article(self, post_content):
         canonical_url = f"https://{post_content['frontmatterData']['domain']}/{post_content['frontmatterData']['slug']}"
         tags = post_content["frontmatterData"]["tags"].split(",")
+
+        articles = self.get_articles()
+        edit_postfix = " (edited)"
+        for article in articles["data"]:
+            article_name = article["name"]
+            if article_name == post_content["frontmatterData"]["title"]:
+                self.logging.info(
+                    "Article already exists, setting name of the post...."
+                )
+                post_content["frontmatterData"]["title"] += edit_postfix
+                break
+
+        cover_image = post_content["frontmatterData"]["cover"]
+        cover_image_html = f'<img src="{cover_image}" alt="Cover image" />'
+        post_content["bodyHtml"] = cover_image_html + "\n\n" + post_content["bodyHtml"]
+
         data = {
             "title": post_content["frontmatterData"]["title"],
             "canonicalUrl": canonical_url,
@@ -44,7 +65,16 @@ class MediumClient:
             headers=DEFAULT_HEADERS,
         )
 
-        print(response.json())
+        if edit_postfix in post_content["frontmatterData"]["title"]:
+            self.logging.info(
+                "An existing article has been edited and has been published: %s",
+                response,
+            )
+        else:
+            self.logging.info(
+                "New article has been published as 'unlisted'! %s", response
+            )
+
         return response.json()
 
     def _get_authenticated_user(self):
@@ -54,8 +84,3 @@ class MediumClient:
         )
 
         return response.json()
-
-
-if __name__ == "__main__":
-    client = MediumClient()
-    client.get_articles()

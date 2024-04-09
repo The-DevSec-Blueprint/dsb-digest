@@ -16,7 +16,6 @@ class PostPublisher:
         self.logging = logging.getLogger(__name__)
 
     def publish_to_devto(self):
-        all_articles = self.devto_client.get_articles()
         md_files = self._get_list_of_markdown_files()
 
         for md_file in md_files:
@@ -26,23 +25,11 @@ class PostPublisher:
                 if post_content["frontmatterData"]["saveAsDraft"] is False
                 else False
             )
-
-            article_id = None
-            is_currently_published = False
-            for article in all_articles:
-                # Check to see if article is in them
-                if article["type_of"] == "article":
-                    if article["title"] == post_content["frontmatterData"]["title"]:
-                        self.logging.info(
-                            "Found article, %s",
-                            post_content["frontmatterData"]["title"],
-                        )
-                        article_id = article["id"]
-                        is_currently_published = article["published"]
-                        break
+            article_id, is_currently_published = self._find_published_article_devto(
+                post_content
+            )
 
             if article_id is None:
-                # Publish
                 self.logging.info(
                     "Publishing new article, %s",
                     post_content["frontmatterData"]["title"],
@@ -70,34 +57,36 @@ class PostPublisher:
                     )
 
     def publish_to_medium(self):
-        all_articles = self.devto_client.get_articles()
         md_files = self._get_list_of_markdown_files()
 
         for md_file in md_files:
             post_content = self._get_post_content(md_file)
-            to_publish = (
-                True
-                if post_content["frontmatterData"]["saveAsDraft"] is False
-                else False
+            article_id, is_currently_published = self._find_published_article_devto(
+                post_content
             )
-
-            for article in all_articles:
-                # Check to see if article is in them
-                if article["type_of"] == "article":
-                    if article["title"] == post_content["frontmatterData"]["title"]:
-                        self.logging.info(
-                            "Found article, %s",
-                            post_content["frontmatterData"]["title"],
-                        )
-                        article_id = article["id"]
-                        is_currently_published = article["published"]
-                        break
-
-            body_html = self.devto_client.get_article(article_id, is_currently_published)['body_html']
+            body_html = self.devto_client.get_article(
+                article_id, is_currently_published
+            )["body_html"]
             post_content["bodyHtml"] = body_html
-            print(body_html)
-            
+
             self.medium_client.publish_article(post_content)
+
+    def _find_published_article_devto(self, post_content):
+        all_articles = self.devto_client.get_articles()
+
+        for article in all_articles:
+            if article["type_of"] == "article":
+                if article["title"] == post_content["frontmatterData"]["title"]:
+                    self.logging.info(
+                        "Found article, %s",
+                        post_content["frontmatterData"]["title"],
+                    )
+                    article_id = article["id"]
+                    is_currently_published = article["published"]
+
+                    return article_id, is_currently_published
+
+        return None, None
 
     def _get_post_content(self, md_file):
         with open(md_file, "r") as f:
@@ -128,4 +117,4 @@ class PostPublisher:
 if __name__ == "__main__":
     publisher = PostPublisher()
     publisher.publish_to_devto()
-    #publisher.publish_to_medium()
+    publisher.publish_to_medium()
