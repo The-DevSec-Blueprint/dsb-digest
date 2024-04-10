@@ -1,10 +1,10 @@
-name: "Publish Blogs - Dev.to/Medium"
+name: "Pylint Check - Python"
 
 on:
   workflow_call:
 
 jobs:
-  publish_blogs:
+  pylint_check:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,8 +17,5 @@ jobs:
     - name: Install Dependencies
       run: pip install -r requirements.txt  # Install your Python dependencies
   
-    - name: Publish Blog Posts
-      env:
-        DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
-        MEDIUM_API_TOKEN: ${{ secrets.MEDIUM_API_TOKEN }}
-      run: python ./src/main.py
+    - name: Lint Check
+      run: pylint src/

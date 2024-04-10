@@ -1,13 +1,16 @@
+"""
+This module contains the MediumClient class. It is responsible
+for interacting with Medium APIs.
+"""
+
 from os import environ
-import requests
 import logging
+import requests
 
 logging.basicConfig(level=logging.INFO)
 
-
 API_TOKEN = environ["MEDIUM_API_TOKEN"]
 MEDIUM_API = "https://api.medium.com/v1"
-
 DEFAULT_HEADERS = {
     "Content-Type": "application/json",
     "Authorization": f"Bearer {API_TOKEN}",
@@ -16,12 +19,23 @@ DEFAULT_HEADERS = {
 
 
 class MediumClient:
+    # pylint: disable=line-too-long,missing-timeout
+    """
+    Class for interacting with Medium APIs.
+    """
 
     def __init__(self) -> None:
         self.logging = logging.getLogger(__name__)
         self.user_id = self._get_authenticated_user()["data"]["id"]
 
     def get_articles(self):
+        """
+        Gets published articles based on the user ID.
+        Returns:
+            list(dict): List of articles. Each article is a dictionary.
+        Raises:
+            Exception: If there is an error retrieving the articles.
+        """
         response = requests.get(
             url=f"{MEDIUM_API}/users/{self.user_id}/publications",
             headers=DEFAULT_HEADERS,
@@ -31,6 +45,15 @@ class MediumClient:
         return response.json()
 
     def publish_article(self, post_content):
+        """
+        Publishes an article based on the post content.
+        Args:
+            post_content (dict): The content of the post.
+        Returns:
+            dict: The response from the API.
+        Raises:
+            Exception: If there is an error publishing the article.
+        """
         canonical_url = f"https://{post_content['frontmatterData']['domain']}/{post_content['frontmatterData']['slug']}"
         tags = post_content["frontmatterData"]["tags"].split(",")
 
@@ -78,6 +101,11 @@ class MediumClient:
         return response.json()
 
     def _get_authenticated_user(self):
+        """
+        Gets the authenticated user.
+        Returns:
+            dict: The response from the API.
+        """
         response = requests.get(
             url=f"{MEDIUM_API}/me",
             headers=DEFAULT_HEADERS,
