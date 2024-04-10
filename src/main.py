@@ -131,7 +131,7 @@ class PostPublisher:
         frontmatter_data = frontmatter.loads(markdown_text)
 
         # Removes center align for hashnode
-        markdown_text = markdown_text.replace(" align=\"center\"", "")
+        markdown_text = markdown_text.replace(' align="center"', "")
 
         return {
             "frontmatterData": frontmatter_data,
