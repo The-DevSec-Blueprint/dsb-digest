@@ -13,7 +13,7 @@ saveAsDraft: true
 
 What's going on y'all! I'm excited to share my journey on successfully passing the AWS Certified DevOps Engineer Professional exam in just 60 days. My hope is that by sharing my experience, resources, study plan, and some crucial tips, I can help you navigate your way to acing this challenging certification.
 
-![AWS DevOps Professional Exam Badge Image](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/)
+![AWS DevOps Professional Exam Badge Image](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/devops_pro_logo.png)
 
 First off, this exam is no small feat. It's designed for individuals who are engaged in a DevOps or DevSecOps engineering role, focusing on operating, managing, and provisioning distributed application systems on the AWS platform. This certification validates your technical expertise in continuous delivery systems, methodologies on AWS, security controls automation, and much more.
 
@@ -21,8 +21,8 @@ First off, this exam is no small feat. It's designed for individuals who are eng
 
 Before diving deep into my study plan and the resources I used, let's get a brief overview of what this exam entails. The AWS Certified DevOps Engineer Professional exam is recognized as one of the more challenging tests compared to other AWS professional level exams. It takes 180 minutes, costs $300 USD, and comprises 75 questions, either multiple choice or multiple response.
 
-![Placeholder for Exam Overview Image](#)
-> **NOTE**: The exam information may change, so be sure to validate this by going to the landing page here: []()
+![Placeholder for Exam Overview Image](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/exam_overview.png)
+> **NOTE**: The exam information may change, so be sure to validate this by going to the landing page here: [Amazon's Website - AWS Certified DevOps Professional Overview](https://aws.amazon.com/certification/certified-devops-engineer-professional/)
 
 ### Why This Certification?
 
@@ -34,11 +34,13 @@ Let me be _really_ candid; this exam is **_EXTREMELY_** difficult. I strongly re
 
 ### Resources Used
 
-1. **Udemy Course by Stephane Marrek**: This was my primary resource. Stephane's detailed explanations and hands-on approach were instrumental in helping me grasp complex concepts quickly. A 10 out of 10, and I highly recommend his course for any AWS certification.
+![Udemy Course](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/stephanes_course.jpeg)
 
-![Placeholder for Udemy Course Image](#)
+1. [**Udemy Course by Stephane Marrek**](https://www.udemy.com/course/aws-certified-devops-engineer-professional-hands-on/): This was my primary resource. Stephane's detailed explanations and hands-on approach were instrumental in helping me grasp complex concepts quickly. A 10 out of 10, and I highly recommend his course for any AWS certification.
 
-2. **TutorialsDojo Cheat Sheets**: A fantastic, free resource that provides summaries of various AWS services. These cheat sheets are great for quick revisions. 
+![Cheat Sheets Course](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/tutorials_dojo_cheat_sheets.png)
+
+2. [**TutorialsDojo Cheat Sheets**](https://tutorialsdojo.com/aws-cheat-sheets/): A fantastic, free resource that provides summaries of various AWS services. These cheat sheets are great for quick revisions. 
 
 I also leveraged the TutorialsDojo practice exams, which mimic the difficulty level of the actual exam, providing both a challenge and a solid learning opportunity.
 
@@ -56,10 +58,16 @@ Remember, **consistency is key.** So make sure you adjust the schedule based on 
 From my experience, certain AWS services played a significant role in the exam. So _**make sure**_ you pay extra attention to:
 
 - CloudFormation
-- CodeBuild, CodePipeline, and CodeDeploy
+- CodeBuild, CodePipeline, CodeDeploy.... Anything with `Code` in front of it
 - Lambda, API Gateway
 - Kinesis Data Streams and Firehose
+- Inspector
+- Organizations
+- Control Tower
+- GuardDuty (surprisingly)
 - Systems Manager (Session Manager and Patch Manager, in particular)
+
+Also, make sure you understand your deployment strategies as well. Knowing the difference between Blue/Green and Rolling deployment is a great starting point.
 
 These are just a few, but understanding these services deeply will be highly beneficial for you before taking the practice exams.
 
@@ -67,7 +75,8 @@ These are just a few, but understanding these services deeply will be highly ben
 
 When test day arrived, I chose to take the exam at a testing center, which I find more conducive for focusing. One piece of advice - **hydrate and eat well** before the exam. Trust me, it makes a difference and will save you from getting a headache. _(speaking from experience)_
 
-![Process of Elimination Picture](#)
+![Process of Elimination Picture](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/process_elimination.jpg)
+> **NOTE**: Originally picture created by [College and Magnolia](https://www.collegeandmagnolia.com/2012/2/27/2829595/process-of-elimination-lets-determine-what-a-playoff-should-not-be)
 
 During the exam, you’ll find that time management and the process of elimination are your best strategies. The questions are detailed, which can be time-consuming. Practice pacing yourself with practice exams to optimize your performance.
 
@@ -81,7 +90,7 @@ Thank you for reading, and I wish you the best of luck. Until next time, happy s
 
 ## Footnotes
 
-_This blogs original content is based off of the following [YouTube Video](https://www.youtube.com/watch?v=Nz7WCh9HQpo):_
-[![What is SAST and DAST?](https://img.youtube.com/vi/Nz7WCh9HQpo/0.jpg)](https://www.youtube.com/watch?v=Nz7WCh9HQpo)
+_This blogs original content is based off of the following [YouTube Video](https://www.youtube.com/watch?v=lKm4lYMXLvg&t=1s):_
+[![How To Pass the AWS Certified DevOps - Professional (DOP-C02) Exam in 60 Days](https://img.youtube.com/vi/lKm4lYMXLvg/0.jpg)](https://www.youtube.com/watch?v=lKm4lYMXLvg)
 
 _All images located in the blog post have been sourced from different places. Click on the image to get redirected to the original source._
