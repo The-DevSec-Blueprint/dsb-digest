@@ -13,7 +13,7 @@ saveAsDraft: true
 
 What's going on y'all! I'm excited to share my journey on successfully passing the AWS Certified DevOps Engineer Professional exam in just 60 days. My hope is that by sharing my experience, resources, study plan, and some crucial tips, I can help you navigate your way to acing this challenging certification.
 
-![AWS DevOps Professional Exam Badge Image](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/devops_pro_logo.png)
+<p align="center"><img src="https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/certification_devops_pro.png" /></p>
 
 First off, this exam is no small feat. It's designed for individuals who are engaged in a DevOps or DevSecOps engineering role, focusing on operating, managing, and provisioning distributed application systems on the AWS platform. This certification validates your technical expertise in continuous delivery systems, methodologies on AWS, security controls automation, and much more.
 
@@ -21,7 +21,8 @@ First off, this exam is no small feat. It's designed for individuals who are eng
 
 Before diving deep into my study plan and the resources I used, let's get a brief overview of what this exam entails. The AWS Certified DevOps Engineer Professional exam is recognized as one of the more challenging tests compared to other AWS professional level exams. It takes 180 minutes, costs $300 USD, and comprises 75 questions, either multiple choice or multiple response.
 
-![Placeholder for Exam Overview Image](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/exam_overview.png)
+<p align="center"><img src="https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/exam_overview.png" /></p>
+
 > **NOTE**: The exam information may change, so be sure to validate this by going to the landing page here: [Amazon's Website - AWS Certified DevOps Professional Overview](https://aws.amazon.com/certification/certified-devops-engineer-professional/)
 
 ### Why This Certification?
@@ -34,13 +35,13 @@ Let me be _really_ candid; this exam is **_EXTREMELY_** difficult. I strongly re
 
 ### Resources Used
 
-![Udemy Course](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/stephanes_course.jpeg)
-
 1. [**Udemy Course by Stephane Marrek**](https://www.udemy.com/course/aws-certified-devops-engineer-professional-hands-on/): This was my primary resource. Stephane's detailed explanations and hands-on approach were instrumental in helping me grasp complex concepts quickly. A 10 out of 10, and I highly recommend his course for any AWS certification.
 
-![Cheat Sheets Course](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/tutorials_dojo_cheat_sheets.png)
+<p align="center"><img src="https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/stephanes_course.jpeg" /></p>
 
-2. [**TutorialsDojo Cheat Sheets**](https://tutorialsdojo.com/aws-cheat-sheets/): A fantastic, free resource that provides summaries of various AWS services. These cheat sheets are great for quick revisions. 
+2. [**TutorialsDojo Cheat Sheets**](https://tutorialsdojo.com/aws-cheat-sheets/): A fantastic, free resource that provides summaries of various AWS services. These cheat sheets are great for quick revisions.
+
+<p align="center"><img src="https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/tutorials_dojo_cheat_sheets.png" /></p>
 
 I also leveraged the TutorialsDojo practice exams, which mimic the difficulty level of the actual exam, providing both a challenge and a solid learning opportunity.
 
@@ -74,9 +75,6 @@ These are just a few, but understanding these services deeply will be highly ben
 ## Testing Experience and Tips
 
 When test day arrived, I chose to take the exam at a testing center, which I find more conducive for focusing. One piece of advice - **hydrate and eat well** before the exam. Trust me, it makes a difference and will save you from getting a headache. _(speaking from experience)_
-
-![Process of Elimination Picture](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/process_elimination.jpg)
-> **NOTE**: Originally picture created by [College and Magnolia](https://www.collegeandmagnolia.com/2012/2/27/2829595/process-of-elimination-lets-determine-what-a-playoff-should-not-be)
 
 During the exam, you’ll find that time management and the process of elimination are your best strategies. The questions are detailed, which can be time-consuming. Practice pacing yourself with practice exams to optimize your performance.
 
