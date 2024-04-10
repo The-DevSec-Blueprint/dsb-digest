@@ -5,7 +5,6 @@ This module is responsible for publishing posts to Medium and Dev.to.
 import re
 import glob
 import logging
-
 import frontmatter
 
 from client.devto_client import DevToClient  # pylint: disable=import-error
@@ -130,6 +129,9 @@ class PostPublisher:
         with open(md_file, "r", encoding="utf-8") as f:
             markdown_text = f.read()
         frontmatter_data = frontmatter.loads(markdown_text)
+
+        # Removes center align for hashnode
+        markdown_text = markdown_text.replace(" align=\"center\"", "")
 
         return {
             "frontmatterData": frontmatter_data,
