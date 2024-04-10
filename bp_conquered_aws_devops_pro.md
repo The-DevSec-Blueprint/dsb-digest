@@ -1,7 +1,7 @@
 ---
 title: How I Conquered the AWS Certified DevOps Engineer Professional Exam in 60 Days
 subtitle: A guide for acing the hardest AWS exam in 60 days
-slug: how-i-conquered-the-aws-devops-professional-exam
+slug: how-i-conquered-the-aws-devops-professional-exam-in-60-days
 tags: aws, awscertified, dopc02, devops
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712782655300/L1KQilgA9.jpg?auto=format
 domain: damienjburks.hashnode.dev
