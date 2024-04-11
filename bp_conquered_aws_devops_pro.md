@@ -11,7 +11,7 @@ saveAsDraft: false
 
 ## Introduction
 
-What's going on y'all! I'm excited to share my journey on successfully passing the AWS Certified DevOps Engineer Professional exam in just 60 days. My hope is that by sharing my experience, resources, study plan, and some crucial tips, I can help you navigate your way to acing this challenging certification.
+In this article, I will share my journey on how to successfully pass the AWS Certified DevOps Engineer Professional exam in just 60 days. My hope is that by sharing my experience, resources, study plan, and some crucial tips, I can help you navigate your way to acing this challenging certification.
 
 ![Certification Image](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/certification_devops_pro.jpg align="center")
 
