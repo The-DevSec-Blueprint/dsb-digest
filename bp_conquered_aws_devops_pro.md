@@ -39,7 +39,7 @@ Let me be _really_ honest; this exam is **_EXTREMELY_** difficult. I strongly re
 
 ![Udemy Course by Stephane Marrek](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/stephanes_course.jpeg align="center")
 
-- [**TutorialsDojo Cheat Sheets**](https://tutorialsdojo.com/aws-cheat-sheets/): A fantastic, free resource that provides summaries of various AWS services. These cheat sheets are great for quick revisions. I also leveraged the TutorialsDojo practice exams, which mimic the difficulty level of the actual exam, providing both a challenge and a solid learning opportunity.
+- [**TutorialsDojo Cheat Sheets**](https://tutorialsdojo.com/aws-cheat-sheets/): A fantastic, free resource that provides summaries of various AWS services. These cheat sheets are great for quick revisions.
 
 ![TutorialsDojo Cheat Sheets](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/tutorials_dojo_cheat_sheets.png align="center")
 
