@@ -39,11 +39,13 @@ Let me be _really_ honest; this exam is **_EXTREMELY_** difficult. I strongly re
 
 ![Udemy Course by Stephane Marrek](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/stephanes_course.jpeg align="center")
 
-2. [**TutorialsDojo Cheat Sheets**](https://tutorialsdojo.com/aws-cheat-sheets/): A fantastic, free resource that provides summaries of various AWS services. These cheat sheets are great for quick revisions.
+1. [**TutorialsDojo Cheat Sheets**](https://tutorialsdojo.com/aws-cheat-sheets/): A fantastic, free resource that provides summaries of various AWS services. These cheat sheets are great for quick revisions. I also leveraged the TutorialsDojo practice exams, which mimic the difficulty level of the actual exam, providing both a challenge and a solid learning opportunity.
 
 ![TutorialsDojo Cheat Sheets](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/tutorials_dojo_cheat_sheets.png align="center")
 
-I also leveraged the TutorialsDojo practice exams, which mimic the difficulty level of the actual exam, providing both a challenge and a solid learning opportunity.
+1. [**TutorialsDojo Practice Exams**](https://portal.tutorialsdojo.com/courses/aws-certified-devops-engineer-professional-practice-exams/): In addition to the cheat sheets, I also leveraged the TutorialsDojo practice exams, which mimic the difficulty level of the actual exam, providing both a challenge and a solid learning opportunity.
+
+![TutorialsDojo Practice Exams](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/practice_exams_td.png align="center")
 
 ### My Study Schedule
 
