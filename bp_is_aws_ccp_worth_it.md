@@ -1,0 +1,42 @@
+---
+title: Is the AWS Certified Cloud Practitioner Certification Worth It?
+subtitle: TBD
+slug: TBD
+tags: TBD
+cover: TBD
+domain: damienjburks.hashnode.dev
+saveAsDraft: false
+---
+
+After purusing various comments across social media platforms regarding the AWS Certified Cloud Practitioner (CCP) certification, I felt compelled to share my perspective on the value of obtaining this certification.
+
+## Is It Worth It?
+
+In my opinion, the worth of pursuing the AWS CCP certification hinges on your aspirations and existing cloud knowledge. If you aim to specialize in AWS and pursue associate-level certifications, then the CCP is a definite yes. However, if you seek to become a cloud generalist, CompTIA's Cloud+ certification may be a better fit as it covers fundamental cloud concepts applicable across various platforms.
+
+## My Experience
+
+Before undertaking the AWS Certified Developer - Associate (CDA) certification, I opted to take the CCP exam. Priced at a reasonable $100, the CCP ensures a solid grasp of cloud principles, AWS billing and pricing, AWS security, and an overview of AWS services. With a duration of approximately 90 minutes, it's arguably the easiest AWS certification exam available. I strongly recommend it for individuals with minimal cloud experience intending to pursue associate-level certifications, as it serves as an excellent foundation. However, be prepared for a steep learning curve if you dive into associate-level exams without prior cloud knowledge.
+
+## Study Materials
+
+For those interested, I have some study material recommendations to help you prepare for the exam:
+
+1. **ACloudGuru's AWS CCP CLF-C02 Course**: [Course Link](https://www.pluralsight.com/cloud-guru/courses/aws-certified-cloud-practitioner-clf-c02)
+2. **AWS Practice Exam**: [Practice Exam Link](https://www.aws.training/certification)
+
+ACloudGuru has consistently proven to be a valuable resource for AWS exams and labs. The recommended course typically takes around a week to complete, offering approximately 10 hours of content with hands-on labs to familiarize you with the AWS console, especially billing services. While the practice exam incurs a fee of approximately $20, it's a worthwhile investment as it closely resembles the actual exam.
+
+## Exam Experience
+
+The CCP exam is relatively straightforward; you either know the answer or you don't. Unlike other exams where you must assess multiple services and select the optimal solution, the CCP exam requires more straightforward knowledge recall. However, this simplicity has its merits, sparing candidates from excessive head-banging against the proverbial wall!
+
+## Study Plan
+
+With consistent effort of about 3-4 hours per day, supplemented by practice exams post-course completion, candidates can typically pass the exam within 2-3 weeks.
+
+## Conclusion
+
+In conclusion, the value of the AWS CCP certification depends on your background and objectives. If you seek to delve deeper into AWS without compromising on cloud fundamentals, the CCP is a worthwhile investment. Otherwise, consider redirecting your $100 towards something that aligns better with your goals or exploring alternative cloud certifications.
+
+Cheers to your cloud journey!
