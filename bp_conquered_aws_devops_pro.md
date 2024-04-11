@@ -5,7 +5,7 @@ slug: how-i-conquered-the-aws-devops-professional-exam-in-60-days
 tags: aws, awscertified, dopc02, devops
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712782655300/L1KQilgA9.jpg?auto=format
 domain: damienjburks.hashnode.dev
-saveAsDraft: true
+saveAsDraft: false
 ---
 
 
@@ -19,7 +19,7 @@ First off, this exam is no small feat. It's designed for individuals who are eng
 
 ## Understanding the Exam
 
-Before diving deep into my study plan and the resources I used, let's get a brief overview of what this exam entails. The AWS Certified DevOps Engineer Professional exam is recognized as one of the more challenging tests compared to other AWS professional level exams. It takes 180 minutes, costs $300 USD, and comprises 75 questions, either multiple choice or multiple response.
+Before diving deep into my study plan and the resources I used, let's get a brief overview of what this exam entails. The AWS Certified DevOps Engineer Professional exam is recognized as one of the more challenging tests compared to other AWS professional level exams. It takes 180 minutes, costs $300 USD, and contains 75 questions, either multiple choice or multiple response.
 
 ![Exam Overview](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/exam_overview.png align="center")
 
@@ -31,7 +31,7 @@ Pursuing this certification was a deliberate move on my part. With several other
 
 ## Prerequisites and Preparations
 
-Let me be _really_ candid; this exam is **_EXTREMELY_** difficult. I strongly recommend having one of the associate-level certifications (either AWS Solutions Architect Associate or AWS Developer Associate) before attempting this one. Additionally, hands-on experience with AWS is crucial for your success, so make sure you are labbing as much as possible!
+Let me be _really_ honest; this exam is **_EXTREMELY_** difficult. I strongly recommend having one of the associate-level certifications (either AWS Solutions Architect Associate or AWS Developer Associate) before attempting this one. Additionally, hands-on experience with AWS is crucial for your success, so make sure you are labbing as much as possible!
 
 ### Resources Used
 
@@ -59,7 +59,7 @@ Remember, **consistency is key.** So make sure you adjust the schedule based on 
 From my experience, certain AWS services played a significant role in the exam. So _**make sure**_ you pay extra attention to:
 
 - CloudFormation
-- CodeBuild, CodePipeline, CodeDeploy.... Anything with `Code` in front of it
+- CodeBuild, CodePipeline, CodeDeploy, and CodeCommit
 - Lambda, API Gateway
 - Kinesis Data Streams and Firehose
 - Inspector
