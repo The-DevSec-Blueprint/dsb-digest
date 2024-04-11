@@ -35,7 +35,7 @@ Let me be _really_ honest; this exam is **_EXTREMELY_** difficult. I strongly re
 
 ### Resources Used
 
-1. [**Udemy Course by Stephane Marrek**](https://www.udemy.com/course/aws-certified-devops-engineer-professional-hands-on/): This was my primary resource. Stephane's detailed explanations and hands-on approach were instrumental in helping me grasp complex concepts quickly. A 10 out of 10, and I highly recommend his course for any AWS certification.
+1. [**Udemy Course by Stephane Marrek**](https://www.udemy.com/course/aws-certified-devops-engineer-professional-hands-on/): This was my primary resource. Stephane's detailed explanations and hands-on approach were instrumental in helping me grasp complex concepts quickly. This course is a 10 out of 10, and I highly recommend his other courses for any AWS certification.
 
 ![Udemy Course by Stephane Marrek](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/conquered_aws_devops_pro/stephanes_course.jpeg align="center")
 
