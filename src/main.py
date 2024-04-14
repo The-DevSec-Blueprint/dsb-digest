@@ -171,4 +171,4 @@ class PostPublisher:
 if __name__ == "__main__":
     publisher = PostPublisher()
     publisher.publish_to_devto()
-    publisher.publish_to_medium()
+    # publisher.publish_to_medium() Disabling publishing to medium because it sucks
