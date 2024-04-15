@@ -5,8 +5,10 @@ slug: is-the-ccp-worth-it
 tags: aws, community, beginner, awscertified
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713064878389/k7JaiozJM.jpg?auto=format
 domain: damienjburks.hashnode.dev
-saveAsDraft: true
+saveAsDraft: false
 ---
+
+## Introduction
 
 After pursuing various comments across social media platforms regarding the AWS Certified Cloud Practitioner (CCP) certification, I felt compelled to share my perspective on the value of obtaining this certification.
 
