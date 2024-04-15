@@ -14,7 +14,7 @@ After pursuing various comments across social media platforms regarding the AWS 
 
 ## Is It Worth It?
 
-So, on to answer the key question of this entire blog post. _**Is the CCP truly worth it**_?
+So, on to answer the key question of this entire blog post. _**Is the CCP truly worth it?**_
 
 In my opinion, the worth of pursuing the AWS CCP certification hinges on your aspirations and existing cloud knowledge. If you aim to specialize in AWS and pursue associate-level certifications, then the CCP is a definite yes. However, if you seek to become a cloud generalist, CompTIA's Cloud+ certification may be a better fit as it covers fundamental cloud concepts applicable across various platforms.
 
