@@ -1,5 +1,5 @@
 ---
-title: Kickstarting Your DevSecOps Career: The 4 Essential Certifications You Need
+title: Kickstarting Your DevSecOps Career - The 4 Essential Certifications You Need
 subtitle: 4 Must-Have Certifications to Ignite your DevSecOps Career
 slug: kickstarting-devsecops-career-with-4-certifications
 tags: devsecops, beginners, devops, cybersecurity
