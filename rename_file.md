@@ -8,9 +8,6 @@ domain: damienjburks.hashnode.dev
 saveAsDraft: true
 ---
 
-
-# Kickstarting Your DevSecOps Career: The 4 Essential Certifications You Need
-
 ## Introduction
 
 In this blog post or article, we'll be unpacking the four certifications that I firmly believe are pivotal for anyone aspiring to launch a career in DevSecOps. Drawing from my journey and insights gathered along the way, this guide aims to equip you with the knowledge to choose certifications that will not only give you a competitive edge but also a solid foundation in the complex world of DevSecOps. 
