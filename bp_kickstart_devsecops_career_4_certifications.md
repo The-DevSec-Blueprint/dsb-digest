@@ -10,11 +10,13 @@ saveAsDraft: true
 
 ## Introduction
 
-In this blog post or article, we'll be unpacking the four certifications that I firmly believe are pivotal for anyone aspiring to launch a career in DevSecOps. Drawing from my journey and insights gathered along the way, this guide aims to equip you with the knowledge to choose certifications that will not only give you a competitive edge but also a solid foundation in the complex world of DevSecOps. 
+In this blog post, we'll be unpacking the four certifications that I firmly believe are pivotal for anyone aspiring to launch a career in DevSecOps. Drawing from my journey and insights gathered along the way, this guide aims to equip you with the knowledge to choose certifications that will not only give you a competitive edge but also a solid foundation in the complex world of DevSecOps. 
 
 ![Placeholder for an inspirational image about learning and growth]
 
 ## 1. CompTIA Security+
+
+![CompTIA Security+ Logo](./assets/kickstart_devsecops_career_4_certifications/logosecurityplus.svg)
 
 Starting with what I consider the bedrock of cybersecurity, the CompTIA Security+ certification is your gateway into understanding the intricate world of cyber securities, which is indispensable in the DefSecOps realm.
 
@@ -26,7 +28,7 @@ Security+ is an entry-level certification but don't underestimate its value. It 
 
 The certification dive into general security concepts, teaches you about different cyber threats and how to mitigate them, and covers security operations and architecture. It delves into vulnerability management techniques and gives insights into security program management. 
 
-![Placeholder for a diagram on Security+ topics coverage]
+![Skills You'll Learn](./assets/kickstart_devsecops_career_4_certifications/sec+_skills_to_learn.png)
 
 #### Certification Details
 
@@ -38,6 +40,8 @@ The certification dive into general security concepts, teaches you about differe
 
 ## 2. CompTIA Linux+
 
+![CompTIA Linux+ Logo](./assets/kickstart_devsecops_career_4_certifications/logolinuxplus.svg)
+
 For those looking to solidify their command over Linux distributions—a critical skill for any aspiring DevSecOps professional—the CompTIA Linux+ is a non-negotiable.
 
 ### Why It Matters
@@ -48,7 +52,7 @@ Linux powers a significant portion of the servers running in data centers worldw
 
 Expect to get hands-on with system management, security practices for permissions and authentications, and have a foray into scripting, containers, and automation. This certificate emphasizes troubleshooting, a non-negotiable skill in a real-world DevOps environment.
 
-![Placeholder for Linux+ skills outline]
+![Linux+ Skills to Learn](./assets/kickstart_devsecops_career_4_certifications/linux+_skills_to_learn.png)
 
 #### Certification Details
 
@@ -60,6 +64,8 @@ Expect to get hands-on with system management, security practices for permission
 
 ## 3. AWS Certified Developer - Associate
 
+![AWS Certified Developer - Associate Logo](./assets/kickstart_devsecops_career_4_certifications/AWS-Certified-Developer-Associate_badge.png)
+
 Considering the ubiquity of AWS in cloud services, the AWS Certified Developer - Associate certification is a goldmine for those looking to demonstrate their proficiency in developing and managing AWS-based applications.
 
 ### Why It Matters
@@ -70,7 +76,7 @@ This certification provides a detailed understanding of AWS services, essential 
 
 Key takeaways include deploying applications using AWS CloudFormation, mastering AWS CI/CD services, and getting comfortable with AWS coding standards for security.
 
-![Placeholder for AWS Certification insights]
+![Exam Guide](./assets/kickstart_devsecops_career_4_certifications/aws_cda_exam_guide.png)
 
 #### Certification Details
 
@@ -80,6 +86,8 @@ Key takeaways include deploying applications using AWS CloudFormation, mastering
 - **Key Highlight:** Packaging and deploying applications using continuous integration and delivery workflows.
 
 ## 4. Certified Kubernetes Administrator (CKA)
+
+![Certified Kubernetes Administrator Logo](./assets/kickstart_devsecops_career_4_certifications/logo_cka.png)
 
 With containerization being a critical part of DevSecOps, understanding Kubernetes is non-negotiable. The Certified Kubernetes Administrator certification is designed to ensure you can handle the challenges of managing Kubernetes environments.
 
