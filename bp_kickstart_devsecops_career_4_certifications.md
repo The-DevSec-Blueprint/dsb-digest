@@ -3,32 +3,30 @@ title: Kickstarting Your DevSecOps Career - The 4 Essential Certifications You N
 subtitle: 4 Must-Have Certifications to Ignite your DevSecOps Career
 slug: kickstarting-devsecops-career-with-4-certifications
 tags: devsecops, beginners, devops, cybersecurity
-cover: TBD
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713473788400/tUhK8ZvMa.jpg?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: true
 ---
 
 ## Introduction
 
-In this blog post, we'll be unpacking the four certifications that I firmly believe are pivotal for anyone aspiring to launch a career in DevSecOps. Drawing from my journey and insights gathered along the way, this guide aims to equip you with the knowledge to choose certifications that will not only give you a competitive edge but also a solid foundation in the complex world of DevSecOps. 
-
-![Placeholder for an inspirational image about learning and growth]
+In this blog post, we'll be unpacking the four certifications that I firmly believe are pivotal for anyone aspiring to launch a career in DevSecOps. Drawing from my journey, research, and insights gathered along the way, this post aims to equip you with the knowledge to choose certifications that will not only give you a competitive edge but also a solid foundation in the complex world of DevSecOps.
 
 ## 1. CompTIA Security+
 
-![CompTIA Security+ Logo](./assets/kickstart_devsecops_career_4_certifications/logosecurityplus.svg)
+![CompTIA Security+ Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/logosecurityplus.svg align="center")
 
 Starting with what I consider the bedrock of cybersecurity, the CompTIA Security+ certification is your gateway into understanding the intricate world of cyber securities, which is indispensable in the DefSecOps realm.
 
 ### Why It Matters
 
-Security+ is an entry-level certification but don't underestimate its value. It comprehensively covers the fundamentals of cybersecurity, from threats and vulnerabilities to risk management protocols. It equipped me with a solid grasp on security concepts, which has been instrumental in navigating the 'Sec' in DevSecOps.
+Security+ is an entry-level certification but don't underestimate its value. It comprehensively covers the fundamentals of cybersecurity, from threats and vulnerabilities to risk management protocols. It equipped me with a solid grasp on security concepts, which has been instrumental in navigating the _'Sec'_ in DevSecOps.
 
 ### What You'll Learn
 
-The certification dive into general security concepts, teaches you about different cyber threats and how to mitigate them, and covers security operations and architecture. It delves into vulnerability management techniques and gives insights into security program management. 
+The certification dive into general security concepts, teaches you about different cyber threats and how to mitigate them, and covers security operations and architecture. It delves into vulnerability management techniques and gives insights into security program management.
 
-![Skills You'll Learn](./assets/kickstart_devsecops_career_4_certifications/sec+_skills_to_learn.png)
+![Skills You'll Learn](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/sec+_skills_to_learn.png align="center")
 
 #### Certification Details
 
@@ -38,21 +36,23 @@ The certification dive into general security concepts, teaches you about differe
 - **Validity:** 3 years, with an option to renew through continuing education credits.
 - **Cost:** $404 USD.
 
+>**NOTE**: This can change, so make sure you already reference the original link for this exam here: [Certification Details - CompTIA Security+](https://www.comptia.org/certifications/security#examdetails)
+
 ## 2. CompTIA Linux+
 
-![CompTIA Linux+ Logo](./assets/kickstart_devsecops_career_4_certifications/logolinuxplus.svg)
+![CompTIA Linux+ Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/logolinuxplus.svg align="center")
 
-For those looking to solidify their command over Linux distributions—a critical skill for any aspiring DevSecOps professional—the CompTIA Linux+ is a non-negotiable.
+For those looking to solidify their command over Linux distributions—a critical skill for any aspiring DevSecOps professional—the CompTIA Linux+ is a non-negotiable!
 
 ### Why It Matters
 
-Linux powers a significant portion of the servers running in data centers worldwide and mastering it can set you apart as a DevSecOps engineer. This certification taught me the ins and outs of Linux administration, from managing software and services to scripting and security.
+Linux powers a significant portion of the servers running in data centers worldwide and mastering it can set you apart as a DevSecOps engineer. Although I do not have this certification myself, it will teach you the ins and outs of Linux administration, from managing software and services to scripting and security, which is vital for your success as a DevSecOps engineer.
 
 ### What You'll Learn
 
 Expect to get hands-on with system management, security practices for permissions and authentications, and have a foray into scripting, containers, and automation. This certificate emphasizes troubleshooting, a non-negotiable skill in a real-world DevOps environment.
 
-![Linux+ Skills to Learn](./assets/kickstart_devsecops_career_4_certifications/linux+_skills_to_learn.png)
+![Linux+ Skills to Learn](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/linux+_skills_to_learn.png align="center")
 
 #### Certification Details
 
@@ -62,9 +62,11 @@ Expect to get hands-on with system management, security practices for permission
 - **Validity:** 3 years, with renewal options.
 - **Cost:** $369 USD.
 
+>**NOTE**: This can change, so make sure you already reference the original link for this exam here: [Certification Details - CompTIA Linux+](https://www.comptia.org/certifications/linux#examdetails)
+
 ## 3. AWS Certified Developer - Associate
 
-![AWS Certified Developer - Associate Logo](./assets/kickstart_devsecops_career_4_certifications/AWS-Certified-Developer-Associate_badge.png)
+![AWS Certified Developer - Associate Logo](./assets/kickstart_devsecops_career_4_certifications/AWS-Certified-Developer-Associate_badge.png align="center")
 
 Considering the ubiquity of AWS in cloud services, the AWS Certified Developer - Associate certification is a goldmine for those looking to demonstrate their proficiency in developing and managing AWS-based applications.
 
@@ -74,9 +76,9 @@ This certification provides a detailed understanding of AWS services, essential 
 
 ### What You'll Learn
 
-Key takeaways include deploying applications using AWS CloudFormation, mastering AWS CI/CD services, and getting comfortable with AWS coding standards for security.
+The key takeaways that I wanted to highlight for this exam includes deploying applications using AWS CloudFormation, mastering AWS CI/CD services, and getting comfortable with AWS coding standards for security, which is pretty awesome! You can take a look at the exam guide for more information what is covered here: [Developer Associate Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf)
 
-![Exam Guide](./assets/kickstart_devsecops_career_4_certifications/aws_cda_exam_guide.png)
+![Exam Guide](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/aws_cda_exam_guide.png align="center")
 
 #### Certification Details
 
@@ -85,9 +87,11 @@ Key takeaways include deploying applications using AWS CloudFormation, mastering
 - **Question Format:** Multiple choice and multiple response questions.
 - **Key Highlight:** Packaging and deploying applications using continuous integration and delivery workflows.
 
+>**NOTE**: This can change, so make sure you already reference the original link for this exam here: [Certification Details - Developer Associate](https://aws.amazon.com/certification/certified-developer-associate/)
+
 ## 4. Certified Kubernetes Administrator (CKA)
 
-![Certified Kubernetes Administrator Logo](./assets/kickstart_devsecops_career_4_certifications/logo_cka.png)
+![Certified Kubernetes Administrator Logo](./assets/kickstart_devsecops_career_4_certifications/logo_cka.png align="center")
 
 With containerization being a critical part of DevSecOps, understanding Kubernetes is non-negotiable. The Certified Kubernetes Administrator certification is designed to ensure you can handle the challenges of managing Kubernetes environments.
 
@@ -99,7 +103,7 @@ Kubernetes is at the forefront of container orchestration. This certification pr
 
 From basic installation and configuration to managing cluster operations and understanding Kubernetes networking, this certification covers it all. It's an intensive dive into what makes Kubernetes tick and how to keep it running smoothly.
 
-![Placeholder for CKA Certification details]
+![CKA Domains](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/cka_domains.png align="center")
 
 #### Certification Details
 
@@ -107,13 +111,23 @@ From basic installation and configuration to managing cluster operations and und
 - **Validity:** 3 years.
 - **Exam Format:** Performance-based, including real-time tasks in a simulated environment.
 - **Duration:** 2 hours.
+>**NOTE**: This can change, so make sure you already reference the original link for this exam here: [Certification Details - CKA+](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/)
 
 ### Conclusion
 
-![Placeholder for a motivational quote image]
+While these certifications are crucial stepping stones in your DevSecOps journey, I want you all to remember this:
 
-While these certifications are crucial stepping stones in your DevSecOps journey, remember, they're just part of the puzzle. The real game-changer is the hands-on experience you gain through lab work and projects. Incorporate what you learn into tangible projects and showcase them in your portfolio. This not only elevates your understanding but significantly boosts your employability.
+_**Certifications are just part of the puzzle. The real game-changer is the hands-on experience you gain through lab work and projects.**_
 
-Thanks for tuning in! If you found this guide helpful, please like, subscribe, and share with friends embarking on similar professional paths. Got any other certifications in mind that you think are essential for a DevSecOps career? Leave a comment below; I'd love to spark more discussion around which certifications you think are important for aspiring DevSecOps engineers.
+Incorporate what you learn into tangible projects and showcase them in your portfolio. This not only elevates your understanding of the materials and technologies, but it significantly boosts your employability.
 
-Until next time, keep learning, keep growing, and never stop exploring the vast universe of DevSecOps. Let's pave the way for a more secure, efficient, and effective IT landscape, together.
+As always, thank you so much for reading! If you found this post helpful at all, please share it with your friends. If you've got any other certifications in mind that you think are essential for a DevSecOps career, please leave a comment below and let me know your thoughts. I'd love to spark more discussion around which certifications you think are important for aspiring DevSecOps engineers.
+
+Until next time, keep learning, keep growing, and never stop exploring the vast universe of DevSecOps. Let's pave the way for a more secure, efficient, and effective IT landscape together.
+
+## Footnotes
+
+_This blogs original content is based off of the following [YouTube Video](https://www.youtube.com/watch?v=7J9rjMbPZm4):_
+[![Four Certifications That Future DevSecOps Engineers Should Get!](https://img.youtube.com/vi/7J9rjMbPZm4/0.jpg align="center")](https://www.youtube.com/watch?v=7J9rjMbPZm4)
+
+_All images located in the blog post have been sourced from different places, and are referenced properly._
