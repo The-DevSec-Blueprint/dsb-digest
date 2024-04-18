@@ -16,7 +16,7 @@ In this blog post, we'll be unpacking the four certifications that I firmly beli
 
 ![CompTIA Security+ Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/logosecurityplus.svg align="center")
 
-Starting with what I consider the bedrock of cybersecurity, the CompTIA Security+ certification is your gateway into understanding the intricate world of cyber securities, which is indispensable in the DefSecOps realm.
+Starting with what I consider the bedrock of cybersecurity, the CompTIA Security+ certification is your gateway into understanding the intricate world of cyber securities, which is indispensable in the DevSecOps realm.
 
 ### Why It Matters
 
@@ -24,7 +24,7 @@ Security+ is an entry-level certification but don't underestimate its value. It 
 
 ### What You'll Learn
 
-The certification dive into general security concepts, teaches you about different cyber threats and how to mitigate them, and covers security operations and architecture. It delves into vulnerability management techniques and gives insights into security program management.
+This certification dives deeply into general security concepts and teaches you about different cyber threats and how to mitigate them. In addition, it covers security operations and architecture and delves into vulnerability management techniques and gives insights into security program management.
 
 ![Skills You'll Learn](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/sec+_skills_to_learn.png align="center")
 
@@ -36,7 +36,7 @@ The certification dive into general security concepts, teaches you about differe
 - **Validity:** 3 years, with an option to renew through continuing education credits.
 - **Cost:** $404 USD.
 
->**NOTE**: This can change, so make sure you already reference the original link for this exam here: [Certification Details - CompTIA Security+](https://www.comptia.org/certifications/security#examdetails)
+>**NOTE**: This can change, so make sure you reference the original link for this exam here: [Certification Details - CompTIA Security+](https://www.comptia.org/certifications/security#examdetails)
 
 ## 2. CompTIA Linux+
 
@@ -46,11 +46,11 @@ For those looking to solidify their command over Linux distributions—a critica
 
 ### Why It Matters
 
-Linux powers a significant portion of the servers running in data centers worldwide and mastering it can set you apart as a DevSecOps engineer. Although I do not have this certification myself, it will teach you the ins and outs of Linux administration, from managing software and services to scripting and security, which is vital for your success as a DevSecOps engineer.
+Linux powers a significant portion of the servers running in data centers worldwide and mastering it can set you apart as a DevSecOps engineer. Although I do not have this certification myself, it will teach you _(based on my research)_ the ins and outs of Linux administration, from managing software and services to scripting and security, which is vital for your success as a DevSecOps engineer.
 
 ### What You'll Learn
 
-Expect to get hands-on with system management, security practices for permissions and authentications, and have a foray into scripting, containers, and automation. This certificate emphasizes troubleshooting, a non-negotiable skill in a real-world DevOps environment.
+With this certification, you should expect to get hands-on with system management, security practices for permissions and authentications, and have a foray into scripting, containers, and automation. This certificate emphasizes troubleshooting, a non-negotiable skill in a real-world DevOps environment.
 
 ![Linux+ Skills to Learn](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/linux+_skills_to_learn.png align="center")
 
@@ -62,7 +62,7 @@ Expect to get hands-on with system management, security practices for permission
 - **Validity:** 3 years, with renewal options.
 - **Cost:** $369 USD.
 
->**NOTE**: This can change, so make sure you already reference the original link for this exam here: [Certification Details - CompTIA Linux+](https://www.comptia.org/certifications/linux#examdetails)
+>**NOTE**: This can change, so make sure you reference the original link for this exam here: [Certification Details - CompTIA Linux+](https://www.comptia.org/certifications/linux#examdetails)
 
 ## 3. AWS Certified Developer - Associate
 
@@ -87,11 +87,11 @@ The key takeaways that I wanted to highlight for this exam includes deploying ap
 - **Question Format:** Multiple choice and multiple response questions.
 - **Key Highlight:** Packaging and deploying applications using continuous integration and delivery workflows.
 
->**NOTE**: This can change, so make sure you already reference the original link for this exam here: [Certification Details - Developer Associate](https://aws.amazon.com/certification/certified-developer-associate/)
+>**NOTE**: This can change, so make sure you reference the original link for this exam here: [Certification Details - Developer Associate](https://aws.amazon.com/certification/certified-developer-associate/)
 
 ## 4. Certified Kubernetes Administrator (CKA)
 
-![Certified Kubernetes Administrator Logo](./assets/kickstart_devsecops_career_4_certifications/logo_cka.png align="center")
+![Certified Kubernetes Administrator Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/logo_cka.png align="center")
 
 With containerization being a critical part of DevSecOps, understanding Kubernetes is non-negotiable. The Certified Kubernetes Administrator certification is designed to ensure you can handle the challenges of managing Kubernetes environments.
 
@@ -111,7 +111,7 @@ From basic installation and configuration to managing cluster operations and und
 - **Validity:** 3 years.
 - **Exam Format:** Performance-based, including real-time tasks in a simulated environment.
 - **Duration:** 2 hours.
->**NOTE**: This can change, so make sure you already reference the original link for this exam here: [Certification Details - CKA+](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/)
+>**NOTE**: This can change, so make sure you reference the original link for this exam here: [Certification Details - CKA+](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/)
 
 ### Conclusion
 
