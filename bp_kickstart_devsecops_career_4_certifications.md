@@ -5,7 +5,7 @@ slug: kickstarting-devsecops-career-with-4-certifications
 tags: devsecops, beginners, devops, cybersecurity
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713473788400/tUhK8ZvMa.jpg?auto=format
 domain: damienjburks.hashnode.dev
-saveAsDraft: true
+saveAsDraft: false
 ---
 
 ## Introduction
