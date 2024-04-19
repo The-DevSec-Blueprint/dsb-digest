@@ -20,7 +20,7 @@ Starting with what I consider the bedrock of cybersecurity, the CompTIA Security
 
 ### Why It Matters
 
-Security+ is an entry-level certification but don't underestimate its value. It comprehensively covers the fundamentals of cybersecurity, from threats and vulnerabilities to risk management protocols. It equipped me with a solid grasp on security concepts, which has been instrumental in navigating the _'Sec'_ in DevSecOps.
+The CompTIA Security+ is an entry-level certification but don't underestimate its value. It comprehensively covers the fundamentals of cybersecurity, from threats and vulnerabilities to risk management protocols. It equipped me with a solid grasp on security concepts, which has been instrumental in navigating the _'Sec'_ in DevSecOps.
 
 ### What You'll Learn
 
@@ -42,7 +42,7 @@ This certification dives deeply into general security concepts and teaches you a
 
 ![CompTIA Linux+ Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/logolinuxplus.svg align="center")
 
-For those looking to solidify their command over Linux distributions—a critical skill for any aspiring DevSecOps professional—the CompTIA Linux+ is a non-negotiable!
+For those looking to solidify their command over Linux distributions—a critical skill for any aspiring DevSecOps professional, the CompTIA Linux+ is a non-negotiable! Seriously!
 
 ### Why It Matters
 
@@ -50,7 +50,7 @@ Linux powers a significant portion of the servers running in data centers worldw
 
 ### What You'll Learn
 
-With this certification, you should expect to get hands-on with system management, security practices for permissions and authentications, and have a foray into scripting, containers, and automation. This certificate emphasizes troubleshooting, a non-negotiable skill in a real-world DevOps environment.
+With this certification, you should expect to get hands-on with system management, security practices for permissions and authentications, and have a foray into scripting, containers, and automation. This certificate emphasizes troubleshooting, which is a non-negotiable skill in a real-world DevOps and DevSecOps environment.
 
 ![Linux+ Skills to Learn](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/linux+_skills_to_learn.png align="center")
 
@@ -68,15 +68,15 @@ With this certification, you should expect to get hands-on with system managemen
 
 ![AWS Certified Developer - Associate Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/AWS-Certified-Developer-Associate_badge.png align="center")
 
-Considering the ubiquity of AWS in cloud services, the AWS Certified Developer - Associate certification is a goldmine for those looking to demonstrate their proficiency in developing and managing AWS-based applications.
+Considering the ubiquity of AWS in cloud services, the AWS Certified Developer - Associate certification is a goldmine for those looking to demonstrate their proficiency in developing and managing AWS-based applications for real-world DevOps and DevSecOps use cases.
 
 ### Why It Matters
 
-This certification provides a detailed understanding of AWS services, essential for deploying infrastructure and managing CI/CD pipelines—a core component of the DevSecOps workflow.
+This certification provides a detailed understanding of AWS services, essential for deploying infrastructure and managing CI/CD pipelines, which is a core component of the DevOps and DevSecOps workflow.
 
 ### What You'll Learn
 
-The key takeaways that I wanted to highlight for this exam includes deploying applications using AWS CloudFormation, mastering AWS CI/CD services, and getting comfortable with AWS coding standards for security, which is pretty awesome! You can take a look at the exam guide for more information what is covered here: [Developer Associate Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf)
+For this certification, you should expect to learn how to deploy applications and infrastructe using AWS CloudFormation, master AWS CI/CD services (CodeCommit, CodeDeploy, CodePipeline, etc.), and get comfortable with AWS coding standards for security. To learn more about this exam and all that it entails, you can take a look at the exam guide here: [Developer Associate Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf)
 
 ![Exam Guide](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/aws_cda_exam_guide.png align="center")
 
@@ -85,7 +85,7 @@ The key takeaways that I wanted to highlight for this exam includes deploying ap
 - **Exam Length:** 130 minutes.
 - **Cost:** $150 USD.
 - **Question Format:** Multiple choice and multiple response questions.
-- **Key Highlight:** Packaging and deploying applications using continuous integration and delivery workflows.
+- **Validity:** 3 years, must retake exam again to renew
 
 >**NOTE**: This can change, so make sure you reference the original link for this exam here: [Certification Details - Developer Associate](https://aws.amazon.com/certification/certified-developer-associate/)
 
@@ -97,7 +97,7 @@ With containerization being a critical part of DevSecOps, understanding Kubernet
 
 ### Why It Matters
 
-Kubernetes is at the forefront of container orchestration. This certification proves your prowess in managing production-grade Kubernetes clusters, a must-have skill for any DevSecOps professional.
+Kubernetes is at the forefront of container orchestration. Like the CompTIA Linux+, I did not take this exam. However, I believe that this certification proves your prowess in managing production-grade Kubernetes clusters, which is a must-have skill for any DevOps and DevSecOps professional.
 
 ### What You'll Learn
 
@@ -111,6 +111,7 @@ From basic installation and configuration to managing cluster operations and und
 - **Validity:** 3 years.
 - **Exam Format:** Performance-based, including real-time tasks in a simulated environment.
 - **Duration:** 2 hours.
+
 >**NOTE**: This can change, so make sure you reference the original link for this exam here: [Certification Details - CKA+](https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/)
 
 ### Conclusion
