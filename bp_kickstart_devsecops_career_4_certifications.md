@@ -66,7 +66,7 @@ With this certification, you should expect to get hands-on with system managemen
 
 ## 3. AWS Certified Developer - Associate
 
-![AWS Certified Developer - Associate Logo](./assets/kickstart_devsecops_career_4_certifications/AWS-Certified-Developer-Associate_badge.png align="center")
+![AWS Certified Developer - Associate Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/kickstart_devsecops_career_4_certifications/AWS-Certified-Developer-Associate_badge.png align="center")
 
 Considering the ubiquity of AWS in cloud services, the AWS Certified Developer - Associate certification is a goldmine for those looking to demonstrate their proficiency in developing and managing AWS-based applications.
 
