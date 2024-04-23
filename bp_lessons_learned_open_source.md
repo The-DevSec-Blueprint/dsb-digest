@@ -1,6 +1,6 @@
 ---
 title: A Beginner's Guide to Contributing to Open Source Projects
-subtitle: Giving you the keys to acing this tough exam!
+subtitle: A quick guide on contributing to open source projects!
 slug: a-beginners-guide-to-contributing-to-open-source
 tags: development, opensource, community, beginners
 cover: TBD
