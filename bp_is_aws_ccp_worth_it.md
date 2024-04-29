@@ -60,6 +60,6 @@ In conclusion, the value of the AWS CCP certification depends on your background
 
 Thank you for reading, and I wish you the best of luck if you decide to take this exam. Until next time, happy studying, and I'll see you in the cloud!
 
-## Footnotes
+---
 
-_All images located in the blog post have been sourced from different places. Click on the image to get redirected to the original source._
+***Disclaimer:** This blog post reflects my personal experiences and opinions.*
