@@ -3,7 +3,7 @@ title: A Beginner's Guide to Contributing to Open Source Projects
 subtitle: A quick guide on contributing to open source projects!
 slug: a-beginners-guide-to-contributing-to-open-source
 tags: development, opensource, community, beginners
-cover: TBD
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714356159707/1kEQqxiBf.jpg?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: true
 ---
