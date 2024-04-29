@@ -88,7 +88,9 @@ For those of you embarking on this journey, I hope my experience sheds some ligh
 
 Thank you for reading, and I wish you the best of luck. Until next time, happy studying, and I'll see you in the cloud!
 
-## Footnotes
+---
+
+***Disclaimer:** This blog post reflects my personal experiences and opinions.*
 
 _This blogs original content is based off of the following [YouTube Video](https://www.youtube.com/watch?v=lKm4lYMXLvg&t=1s):_
 [![How To Pass the AWS Certified DevOps - Professional (DOP-C02) Exam in 60 Days](https://img.youtube.com/vi/lKm4lYMXLvg/0.jpg align="center")](https://www.youtube.com/watch?v=lKm4lYMXLvg)

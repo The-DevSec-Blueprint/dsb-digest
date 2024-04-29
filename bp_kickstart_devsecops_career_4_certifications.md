@@ -126,9 +126,9 @@ As always, thank you so much for reading! If you found this post helpful at all,
 
 Until next time, keep learning, keep growing, and never stop exploring the vast universe of DevSecOps. Let's pave the way for a more secure, efficient, and effective IT landscape together.
 
-## Footnotes
+---
+
+***Disclaimer:** This blog post reflects my personal experiences and opinions.*
 
 _This blogs original content is based off of the following [YouTube Video](https://www.youtube.com/watch?v=Gdgma1HtHks):_
 [![Four Certifications That Future DevSecOps Engineers Should Get!](https://img.youtube.com/vi/Gdgma1HtHks/0.jpg align="center")](https://www.youtube.com/watch?v=Gdgma1HtHks)
-
-_All images located in the blog post have been sourced from different places, and are referenced properly._
