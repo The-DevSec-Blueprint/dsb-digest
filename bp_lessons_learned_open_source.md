@@ -18,9 +18,7 @@ Before diving into the specifics of contributing to open source, it's essential 
 
 ## Lesson 0: Identify Your Passion
 
-The first step in contributing to open source is identifying your passion and interests within the vast landscape of technology. Whether it's cybersecurity, web development, or machine learning, pinpointing your passion will guide you in selecting projects aligned with your expertise and aspirations.
-
-### Questions to Consider:
+The first step in contributing to open source is identifying your passion and interests within the vast landscape of technology. Whether it's cybersecurity, web development, or machine learning, pinpointing your passion will guide you in selecting projects aligned with your expertise and aspirations. Here are two questions that I think you should consider:
 
 - What am I passionate about in the realm of technology?
 - Do I currently use or plan to use specific tools or frameworks in my personal or professional projects?
@@ -37,19 +35,23 @@ When selecting a project to contribute to, it's essential to gauge its activity 
 
 ### Active Project Example: Open Policy Agent (OPA)
 
+![OPA Policy Agent Project Ooverview](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/lessons_learned_open_source/opa_release_commits.webp align="center")
+
 Open Policy Agent (OPA) serves as a prime example of an active project with a vibrant community and robust development activity. The project's GitHub repository showcases frequent commits and releases, indicative of ongoing maintenance and engagement from contributors.
 
-![Insert Figure 1: Release and Commits]()
+#### Good Commit History Example: Open Policy Agent (OPA)
 
-![Insert Figure 2: Commit History to 'main' branch]()
+![OPA Good Commit History](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/lessons_learned_open_source/opa_good_commit_history.webp align="center")
 
-### Dead Project Example: Pacu
+### Dead Project Example: PACU
+
+![Insert Figure 3: Pacu Commits and Release History](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/lessons_learned_open_source/pacu_bad_project.webp align="center")
 
 On the other hand, projects with minimal recent activity may indicate a stagnant or "dead" status, making them less conducive to new contributions. Pacu, for instance, exhibits signs of stagnation with infrequent releases and sparse commit history.
 
-![Insert Figure 3: Pacu Commits and Release History]()
 
-![Insert Figure 4: Commit History of Pacu]()
+#### Bad Commit History: PACU
+![Insert Figure 4: Commit History of Pacu](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/lessons_learned_open_source/pacu_commit_history.webp align="center")
 
 In such cases, it's advisable to seek out more active projects to maximize your contribution potential.
 
@@ -59,7 +61,7 @@ Contrary to popular belief, contributing to open source doesn't always require w
 
 ### Example: Open Policy Agent (OPA)
 
-![Insert Figure 5: Filtered 'Good First Issues']()
+![Insert Figure 5: Filtered 'Good First Issues'](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/lessons_learned_open_source/opa_good_first_issue.webp align="center")
 
 ## Lesson 4: Read Contributing Guidelines
 
@@ -73,7 +75,9 @@ One of the most valuable resources in the open-source community is the willingne
 
 Armed with these lessons and insights, you're now equipped to embark on your journey of contributing to open source. Remember, every contribution—big or small—makes a difference in advancing open-source projects and enriching the broader developer community.
 
-![Insert Placeholder for Release Announcement Image]()
+### Release Annoucement Example (v0.40.0): Open Policy Agent
+
+![OPA Release Annoucement Example](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/lessons_learned_open_source/opa_release_v0.40.0.webp align="center")
 
 ## Conclusion
 
@@ -81,4 +85,4 @@ Contributing to open source is not just about writing code; it's about collabora
 
 ---
 
-***Disclaimer:** This blog post reflects my personal experiences and opinions. All images located in the blog post have been sourced from different places, and are referenced properly.*
+***Disclaimer:** This blog post reflects my personal experiences and opinions.*
