@@ -14,7 +14,7 @@ Embarking on the journey of contributing to open-source projects can be daunting
 
 ## Overcoming Imposter Syndrome
 
-Before diving into the specifics of contributing to open source, it's essential to address imposter syndrome, a common hurdle for many beginners. Imposter syndrome often creeps in when we venture into unfamiliar territory, pushing us out of our comfort zones. Despite harboring a desire to contribute to open source, I hesitated to take the plunge until I challenged myself earlier this year.
+Before diving into the specifics of contributing to open source, it's essential to address imposter syndrome, a common hurdle for many beginners. Imposter syndrome often creeps in when we venture into unfamiliar territory, pushing us out of our comfort zones. Despite harboring a desire to contribute to open source, I hesitated to take the plunge until I challenged myself earlier back in 2022.
 
 ## Lesson 0: Identify Your Passion
 
