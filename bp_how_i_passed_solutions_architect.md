@@ -37,7 +37,7 @@ Choosing the right study materials can make a significant difference in your exa
 ![Stephane Maarek's Course](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/how_i_passed_aws_saa/stephane's_course_saa.jpeg align="center")
 
 - **Platform:** [Udemy](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/)
-- **Overview:** This comprehensive course includes over340 lectures, totaling approximately 27 hours. Stephane Maarek does an excellent job explaining each service in detail, providing clear examples that are easy to remember. He explicitly highlights which topics will appear on the exam and offers hands-on lectures to reinforce the material.
+- **Overview:** This comprehensive course includes over 340 lectures, totaling approximately 27 hours. Stephane Maarek does an excellent job explaining each service in detail, providing clear examples that are easy to remember. He explicitly highlights which topics will appear on the exam and offers hands-on lectures to reinforce the material.
 
 >**Note:** Some hands-on sessions may incur additionalcosts if you're using a free-tier account.
 
@@ -46,14 +46,14 @@ Choosing the right study materials can make a significant difference in your exa
 ![Jon Bonso's Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/how_i_passed_aws_saa/tutorials_dojo_cheat_sheets.png align="center")
 
 - **Platform:** [TutorialsDojo Website - Practice Exams](https://portal.tutorialsdojo.com/courses/aws-certified-solutions-architect-associate-practice-exams)
-- **Overview:** These practice exams are tough butclosely mimic the complexity and depth of the actualexam questions. Initially, I scored between 40s and 60s, which was demotivating. However, after thoroughly reviewing each question and consulting the [TutorialsDojo AWS Cheat Sheets](https://tutorialsdojo.com/aws-cheat-sheets/), my scores improved significantly.
+- **Overview:** These practice exams are tough but closely mimic the complexity and depth of the actualexam questions. Initially, I scored between 40s and 60s, which was demotivating. However, after thoroughly reviewing each question and consulting the [TutorialsDojo AWS Cheat Sheets](https://tutorialsdojo.com/aws-cheat-sheets/), my scores improved significantly.
 
 ### 3. **Whizlabs AWS Labs**
 
 ![Whizlabs Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/how_i_passed_aws_saa/whizlabs_logo.svg align="center")
 
 - **Platform:** [Whizlabs](https://www.whizlabs.com/)
-- **Overview:** For those who prefer a more simulated lab environment, Whizlabs offers a token-based systemto access their labs. This can be a bit pricey, but it's a worthwhile investment for hands-on learning.
+- **Overview:** For those who prefer a more simulated lab environment, Whizlabs offers a token-based system to access their labs. This can be a bit pricey, but it's a worthwhile investment for hands-on learning. If you're willing to invest in it, it's well worth it!
 
 ## Study Schedule
 
@@ -63,7 +63,7 @@ The practice exams provided by Jon Bonso were instrumental in my success. Despit
 
 ## Tips (or Tip) Before Taking the Exam
 
-I decided to take the exam despite not consistently scoring above 85 on the practice tests. This risk paid off, though I would recommend others ensure they are scoring at least 85+ if they prefer a safer margin.
+I decided to take the exam despite not consistently scoring above 85 on the practice tests. This risk paid off, though I would recommend others ensure they are scoring at least 85+ if they prefer a safer margin. So, if you are scoring less than an 85 on the practice exams and don't feel confident a week or so before you sit for the exam, I'd highly recommend you reschedule it for another 2-3 weeks.
 
 ## Conclusion
 
