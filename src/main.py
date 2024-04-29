@@ -4,6 +4,7 @@ This module is responsible for publishing posts to Medium and Dev.to.
 
 import re
 import glob
+import time
 import logging
 import frontmatter
 
@@ -66,6 +67,8 @@ class PostPublisher:
                         post_content["frontmatterData"]["title"],
                     )
                     self.non_updated_articles.append(md_file)
+
+            time.sleep(5)  # Sleep for 5 seconds to avoid rate limiting
 
     def publish_to_medium(self):
         """
