@@ -1,9 +1,9 @@
 ---
 title:  My Journey to Passing the AWS Certified Solutions Architect - Associate Exam
-subtitle: A guide for acing the hardest AWS exam in 60 days
-slug: A surefire way to pass the AWS SAA
+subtitle:A surefire way to pass the AWS SAA
+slug: my-journey-to-passing-the-aws-saa
 tags: aws, awscertified, saa, community
-cover: TBD
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714365932617/G3PI4-dC1.jpg?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: true
 ---
@@ -12,7 +12,7 @@ saveAsDraft: true
 
 In this article, I will share my journey on how to successfully pass the AWS Certified Solutions Architect - Associate (SAA) exam. My hope is that by sharing my experience, resources, study plan, and some crucial tips, I can help you navigate your way to acing this challenging certification exam.
 
-![My Certification](./assets/how_i_passed_aws_saa/aws_saa_certificate.jpg)
+![My Certification](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/how_i_passed_aws_saa/aws_saa_certificate.jpg align="center")
 
 ## Comparing to the Developer Associate Exam
 
@@ -34,7 +34,7 @@ Choosing the right study materials can make a significant difference in your exa
 
 ### 1. **Stephane Maarek's Ultimate AWS Certified Solutions Architect Associate Course**
 
-![Stephane Maarek's Course](./assets/how_i_passed_aws_saa/stephane's_course_saa.jpeg)
+![Stephane Maarek's Course](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/how_i_passed_aws_saa/stephane's_course_saa.jpeg align="center")
 
 - **Platform:** [Udemy](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/)
 - **Overview:** This comprehensive course includes over340 lectures, totaling approximately 27 hours. Stephane Maarek does an excellent job explaining each service in detail, providing clear examples that are easy to remember. He explicitly highlights which topics will appear on the exam and offers hands-on lectures to reinforce the material.
@@ -43,14 +43,14 @@ Choosing the right study materials can make a significant difference in your exa
 
 ### 2. **Jon Bonso's Practice Exams**
 
-![Jon Bonso's Logo](./assets/how_i_passed_aws_saa/tutorials_dojo_cheat_sheets.png)
+![Jon Bonso's Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/how_i_passed_aws_saa/tutorials_dojo_cheat_sheets.png align="center")
 
 - **Platform:** [TutorialsDojo Website - Practice Exams](https://portal.tutorialsdojo.com/courses/aws-certified-solutions-architect-associate-practice-exams)
 - **Overview:** These practice exams are tough butclosely mimic the complexity and depth of the actualexam questions. Initially, I scored between 40s and 60s, which was demotivating. However, after thoroughly reviewing each question and consulting the [TutorialsDojo AWS Cheat Sheets](https://tutorialsdojo.com/aws-cheat-sheets/), my scores improved significantly.
 
 ### 3. **Whizlabs AWS Labs**
 
-![Whizlabs Logo](./assets/how_i_passed_aws_saa/whizlabs_logo.svg)
+![Whizlabs Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/how_i_passed_aws_saa/whizlabs_logo.svg align="center")
 
 - **Platform:** [Whizlabs](https://www.whizlabs.com/)
 - **Overview:** For those who prefer a more simulated lab environment, Whizlabs offers a token-based systemto access their labs. This can be a bit pricey, but it's a worthwhile investment for hands-on learning.
