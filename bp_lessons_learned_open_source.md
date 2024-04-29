@@ -5,7 +5,7 @@ slug: a-beginners-guide-to-contributing-to-open-source
 tags: development, opensource, community, beginners
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714356159707/1kEQqxiBf.jpg?auto=format
 domain: damienjburks.hashnode.dev
-saveAsDraft: true
+saveAsDraft: false
 ---
 
 ## Introduction
@@ -69,11 +69,11 @@ One of the most valuable resources in the open-source community is the willingne
 
 ## Ready to Contribute?
 
-Armed with these lessons and insights, you're now equipped to embark on your journey of contributing to open source. One thing I want to add: 
+Armed with these lessons and insights, you're now equipped to embark on your journey of contributing to open source. One thing I want to add:
 
 >**Contributing to open source doesn't always require writing code.**
 
-Documentation, for instance, plays a crucial role in the success of open-source projects and often requires updates or enhancements. If you're not comfortable with coding initially, consider exploring documentation-related tasks tagged as "good first issues." 
+Documentation, for instance, plays a crucial role in the success of open-source projects and often requires updates or enhancements. If you're not comfortable with coding initially, consider exploring documentation-related tasks tagged as "good first issues."
 
 Remember, every contribution, big or small, makes a difference in advancing open-source projects and enriching the broader developer community.
 
