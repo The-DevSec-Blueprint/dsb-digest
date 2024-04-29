@@ -1,5 +1,5 @@
 ---
-title:  My Journey to Passing the AWS Certified Solutions Architect - Associate Exam
+title:  My Journey to Passing the AWS Certified Solutions Architect Associate Exam
 subtitle: A surefire way to pass the AWS SAA
 slug: my-journey-to-passing-the-aws-saa
 tags: aws, awscertified, saa, community
