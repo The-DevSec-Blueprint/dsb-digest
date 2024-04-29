@@ -53,7 +53,7 @@ Choosing the right study materials can make a significant difference in your exa
 ![Whizlabs Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/how_i_passed_aws_saa/whizlabs_logo.svg align="center")
 
 - **Platform:** [Whizlabs](https://www.whizlabs.com/)
-- **Overview:** For those who prefer a more simulated lab environment, Whizlabs offers a token-based system to access their labs. This can be a bit pricey, but it's a worthwhile investment for hands-on learning. If you're willing to invest in it, it's well worth it!
+- **Overview:** For those who prefer a more simulated lab environment, Whizlabs offers a token-based system to access their labs. This can be a bit pricey, but it's a worthwhile investment for hands-on learning. If you're willing to invest in it, it's well worth it! You can find more information about their labs here: [Whizlabs AWS Solutions Architect - Associate](https://www.whizlabs.com/aws-solutions-architect-associate/)
 
 ## Study Schedule
 
