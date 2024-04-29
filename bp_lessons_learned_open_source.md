@@ -16,7 +16,7 @@ Embarking on the journey of contributing to open-source projects can be daunting
 
 Before diving into the specifics of contributing to open source, it's essential to address imposter syndrome, a common hurdle for many beginners. Imposter syndrome often creeps in when we venture into unfamiliar territory, pushing us out of our comfort zones. Despite harboring a desire to contribute to open source, I hesitated to take the plunge until I challenged myself earlier back in 2022.
 
-## Lesson 0: Identify Your Passion
+## Step 0: Identify Your Passion
 
 The first step in contributing to open source is identifying your passion and interests within the vast landscape of technology. Whether it's cybersecurity, web development, or machine learning, pinpointing your passion will guide you in selecting projects aligned with your expertise and aspirations. Here are two questions that I think you should consider:
 
@@ -25,11 +25,11 @@ The first step in contributing to open source is identifying your passion and in
 
 Answering these questions will help you narrow down your search for suitable open-source projects on platforms like GitHub.
 
-## Lesson 1: Understand the Project's History
+## Step 1: Understand the Project's History
 
 Before making your first contribution, take the time to familiarize yourself with the project's history, goals, and community. Dive into documentation available on the project's webpage or repository, watch tutorials or YouTube videos, and get to know the project's founders and contributors. Understanding the project's mission and vision is crucial for becoming an effective contributor.
 
-## Lesson 2: Assess Project Activity
+## Step 2: Assess Project Activity
 
 When selecting a project to contribute to, it's essential to gauge its activity level and responsiveness to contributions. Examining the project's pull request (PR) and merge history provides valuable insights into its vitality.
 
@@ -55,7 +55,7 @@ On the other hand, projects with minimal recent activity may indicate a stagnant
 
 In such cases, it's advisable to seek out more active projects to maximize your contribution potential.
 
-## Lesson 3: Non-Code Contributions Matter
+## Step 3: Non-Code Contributions Matter
 
 Contrary to popular belief, contributing to open source doesn't always require writing code. Documentation, for instance, plays a crucial role in the success of open-source projects and often requires updates or enhancements. If you're not comfortable with coding initially, consider exploring documentation-related tasks tagged as "good first issues."
 
@@ -63,11 +63,11 @@ Contrary to popular belief, contributing to open source doesn't always require w
 
 ![Insert Figure 5: Filtered 'Good First Issues'](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/lessons_learned_open_source/opa_good_first_issue.webp align="center")
 
-## Lesson 4: Read Contributing Guidelines
+## Step 4: Read Contributing Guidelines
 
 Before making any contributions, familiarize yourself with the project's contributing guidelines. These guidelines outline the project's standards, workflows, and best practices for submitting contributions. Ignoring or neglecting these guidelines can lead to delays and complications in the contribution process.
 
-## Lesson 5: Don't Hesitate to Seek Help
+## Step 5: Don't Hesitate to Seek Help
 
 One of the most valuable resources in the open-source community is the willingness of contributors and maintainers to offer assistance and guidance. Don't hesitate to reach out for help, clarification, or feedback when navigating the contribution process. Engaging with the project's community through communication channels like Slack or Discord fosters collaboration and enhances the learning experience.
 
