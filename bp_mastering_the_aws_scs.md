@@ -75,7 +75,7 @@ Hands-on experience is crucial, and that’s why I also recommend the AWS Securi
 
 [![TutorialsDojo Practice Exams](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/mastering_the_aws_scs/practice_exams.jpeg align="center")](https://portal.tutorialsdojo.com/courses/aws-certified-security-specialty-practice-exams-scs-c02/)
 
-Tutorial Dojo is another excellent resource that I constantly use for AWS exams. Their practice exams are known to mirror the actual exam’s difficulty, sometimes even tougher. Consistently scoring above 80% on these can boost your confidence significantly prior to sitting for the exam.
+TutorialsDojo is another excellent resource that I constantly use for AWS exams. Their practice exams are known to mirror the actual exam’s difficulty, sometimes even tougher. Consistently scoring above 80% on these can boost your confidence significantly prior to sitting for the exam.
 
 [![Tutorials Dojo Cheat Sheets](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/mastering_the_aws_scs/td_cheat_sheets.png align="center")](https://tutorialsdojo.com/aws-cheat-sheets/)
 
@@ -85,7 +85,9 @@ Furthermore, their cheat sheets also provide detailed notes on services that you
 
 [![Becky's Talk](https://img.youtube.com/vi/-ObImxw1PmI/0.jpg align="center")](https://www.youtube.com/watch?v=-ObImxw1PmI)
 
-Becky Weiss’s talk is a treasure trove of information covering basic network security, access management policies, and data encryption. Her ability to simplify complex topics into digestible bits is what makes her session a must-watch. So, make sure you watch this all the way through. I can guarantee you will have a much better understanding of how Cloud Security works with leveraging AWS services.
+Becky Weiss’s talk is a treasure trove of information covering basic network security, access management policies, and data encryption. Her ability to simplify complex topics into digestible bits is what makes her session a must-watch.
+
+With that being stated, I implore you to watch this all the way through. I can guarantee you will have a much better understanding of how Cloud Security works with leveraging AWS services.
 
 ## Key AWS Services to Focus On
 
