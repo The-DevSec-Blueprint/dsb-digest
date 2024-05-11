@@ -8,33 +8,39 @@ domain: damienjburks.hashnode.dev
 saveAsDraft: false
 ---
 
-### Introduction
+## Table of Contents
+
+1. [Introduction](#introduction)
+1. [What Exactly is SAST?](#what-exactly-is-sast)
+1. [Discovering DAST: The Dynamic Cousin](#discovering-dast-the-dynamic-cousin)
+1. [Key Differences Between SAST and DAST](#key-differences-between-sast-and-dast)
+1. [When to Use SAST and DAST](#when-to-use-sast-and-dast)
+1. [Tools of the Trade](#tools-of-the-trade)
+   - [SAST Tools](#sast-tools)
+   - [DAST Tools](#dast-tools)
+1. [Conclusion](#conclusion)
+
+## Introduction
 
 As a Cloud Security Engineer deeply immersed in the world of Application Security and DevSecOps, nothing excites me more than sharing my knowledge and passion for safeguarding applications against the myriad of cyber threats lurking in the digital world. In this blog post, we will embark on a fascinating journey through two pivotal concepts that keep your favorite apps secure: SAST and DAST.
 
----
-
-### What Exactly is SAST?
+## What Exactly is SAST?
 
 Imagine having a magnifying glass that lets you peer deeply into your application's source code, pinpointing vulnerabilities before they become a threat. That, my friends, is what I would call SAST. SAST, or Static Application Security Testing, involves a detailed analysis of an application's source code to identify any security weaknesses and vulnerabilities. The beauty of SAST lies in it's ability to detect these issues before the application is even compiled.
-
-#### Figure 1: Stages of a SAST Scan by SonarType
 
 [![Stages of a SAST Scan by Sonatype](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/exploring_the_world_of_sasts_and_dast/stages_of_sast.jpg)](https://www.sonatype.com/hs-fs/hubfs/stages-of-sast.jpg?width=2000&height=1499&name=stages-of-sast.jpg)
 
 To me, SAST equals _static analysis_. It's like having a preemptive strike capability within the Software Development Life Cycle (SDLC), allowing engineers to catch and rectify issues early on. This not only saves time but also fortifies the security posture before deployment or releases into lower environments. Moreover, integrating SAST tools into CI/CD pipelines automates security at a scale unimaginable a few years ago, making it a staple in modern development practices for robust application security.
 
-### Discovering DAST: The Dynamic Cousin
+## Discovering DAST: The Dynamic Cousin
 
 While SAST analyses the static aspects, DAST, or Dynamic Application Security Testing, brings in a dynamic perspective. It simulates live attacks on a web application, acting as a real-time assessment tool for identifying vulnerabilities in deployed applications. Think of DAST as the on-the-ground reconnaissance that validates the security measures by engaging with the application as an attacker would.
-
-#### Figure 2: DAST Scanning Process
 
 [![DAST Scanning Process](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/exploring_the_world_of_sasts_and_dast/dast_process_overview.jpeg)](https://miro.medium.com/v2/resize:fit:720/format:webp/1*ovjOeWWoqzHeN6TvXbOeQQ.png)
 
 DAST shines by reducing false positives associated with SAST results due to its interaction with the live application. The findings are more accurate, providing actionable insights. Its comprehensive nature means it doesn't just stop at code; it looks at runtime environments, configurations, and external dependencies.
 
-### Key Differences Between SAST and DAST
+## Key Differences Between SAST and DAST
 
 Understanding the nuances between SAST and DAST can significantly impact how you approach application security. Therefore, I've taken the liberty of highlighting three key differences that you should know:
 
@@ -44,31 +50,31 @@ Understanding the nuances between SAST and DAST can significantly impact how you
 
 Incorporating both SAST and DAST in the appropriate stages of your SDLC enhances your application's security posture, ensuring a well-rounded defense mechanism against cyber threats.
 
-### When to Use SAST and DAST
+## When to Use SAST and DAST
 
 For a secure web application, use SAST during the development phase and ensure it's a part of your CI/CD pipeline for continuous security. DAST should come into play later, ideally during the testing phase, to vet the application post-deployment. Integrating DAST into your release pipeline, with proper rollback strategies added, ensures that your security measures are not just thorough but also practical.
 
-### Tools of the Trade
+## Tools of the Trade
 
 Equipped with knowledge, let's talk tools. Based on my research and hands-on experience with SAST and DAST tooling, here are some recommendations:
 
-#### **For SAST:**
+### SAST Tools
+
 - [Checkmarx](https://checkmarx.com/product/application-security-platform/)
 - [Fortify Static Code Analyzer](https://www.microfocus.com/documentation/fortify-static-code/)
 - [SonarQube](https://www.sonarsource.com/products/sonarqube/) - (Open Source)
 
-#### **For DAST:**
+### DAST Tools
+
 - [Qualys Web Application Scanning](https://www.qualys.com/apps/web-app-scanning/)
 - [OWASP ZAP](https://www.zaproxy.org) (Open Source)
 - [Burp Suite](https://portswigger.net/burp) (Open Source)
 
 In addition to the ones mentioned, there are several other SAST and DAST tools that are available for various different services if you're interested in learning more:
 
-#### Figure 3: DAST and SAST Tools/Frameworks
-
 [![Stages of a SAST Scan by Sonatype](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/exploring_the_world_of_sasts_and_dast/tooling.jpeg)]((https://miro.medium.com/v2/resize:fit:720/format:webp/1*ovjOeWWoqzHeN6TvXbOeQQ.png))
 
-### Wrapping Up
+## Conclusion
 
 The ongoing battle against cyber threats necessitates a fortified defense, and understanding the strategic deployment of SAST and DAST methodologies provides a significant advantage. Remember, the goal isn't just to develop applications but to secure them in a manner that is both efficient and scalable.
 
