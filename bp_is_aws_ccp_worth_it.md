@@ -62,4 +62,4 @@ Thank you for reading, and I wish you the best of luck if you decide to take thi
 
 ---
 
-***Disclaimer:** This blog post reflects my personal experiences and opinions.*
+_**Disclaimer:** This blog post reflects my personal experiences and opinions._
