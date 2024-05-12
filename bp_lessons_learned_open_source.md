@@ -8,6 +8,18 @@ domain: damienjburks.hashnode.dev
 saveAsDraft: false
 ---
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+1. [Overcoming Imposter Syndrome](#overcoming-imposter-syndrome)
+1. [Step 1: Identify Your Passion](#step-1-identify-your-passion)
+1. [Step 2: Understand the Project's History](#step-2-understand-the-projects-history)
+1. [Step 3: Assess Project Activity](#step-3-assess-project-activity)
+1. [Step 4: Read Contributing Guidelines](#step-4-read-contributing-guidelines)
+1. [Step 5: Don't Hesitate to Seek Help](#step-5-dont-hesitate-to-seek-help)
+1. [Ready to Contribute?](#ready-to-contribute)
+1. [Conclusion](#conclusion)
+
 ## Introduction
 
 Embarking on the journey of contributing to open-source projects can be daunting, especially for those new to software development or technology in general. As someone who has recently navigated this terrain, I understand the challenges and uncertainties that come with taking those first steps. In this guide, I'll share my experiences and valuable insights on how to kickstart your journey into the world of open source.

@@ -8,6 +8,19 @@ domain: damienjburks.hashnode.dev
 saveAsDraft: false
 ---
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+1. [Is It Worth It?](#is-it-worth-it)
+1. [My Experience](#my-experience)
+1. [Study Materials](#study-materials)
+    - [ACloudGuru's AWS CCP CLF-C02 Course](https://www.pluralsight.com/cloud-guru/courses/aws-certified-cloud-practitioner-clf-c02)
+    - [TutorialsDojo Practice Exams](https://explore.skillbuilder.aws/learn/course/external/view/elearning/14637/aws-certified-cloud-practitioner-official-practice-exam-clf-c02-english)
+1. [Exam Experience](#exam-experience)
+1. [Study Plan](#study-plan)
+1. [Conclusion](#conclusion)
+
+
 ## Introduction
 
 After pursuing various comments across social media platforms regarding the AWS Certified Cloud Practitioner (CCP) certification, I felt compelled to share my perspective on the value of obtaining this certification.
