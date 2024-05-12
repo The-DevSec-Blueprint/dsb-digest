@@ -6,6 +6,7 @@ tags: aws, awscertified, beginners, community
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714365932617/G3PI4-dC1.jpg?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: false
+enableToc: true
 ---
 
 ## Introduction

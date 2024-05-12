@@ -1,5 +1,5 @@
 """
-This module is responsible for publishing posts to Medium and Dev.to.
+This module is responsible for publishing posts to Dev.to.
 """
 
 import re
@@ -7,22 +7,21 @@ import glob
 import time
 import logging
 import frontmatter
+from md_toc.api import build_toc
 
 from client.devto_client import DevToClient  # pylint: disable=import-error
-from client.medium_client import MediumClient  # pylint: disable=import-error
 
 logging.basicConfig(level=logging.INFO)
 
 
 class PostPublisher:
-    # pylint: disable=line-too-long
+    # pylint: disable=line-too-long, too-few-public-methods
     """
-    This class is responsible for publishing posts to Medium and Dev.to.
+    This class is responsible for publishing posts to Dev.to.
     """
 
     def __init__(self) -> None:
         self.devto_client = DevToClient()
-        self.medium_client = MediumClient()
         self.non_updated_articles = []
         self.logging = logging.getLogger(__name__)
 
@@ -70,31 +69,6 @@ class PostPublisher:
 
             time.sleep(5)  # Sleep for 5 seconds to avoid rate limiting
 
-    def publish_to_medium(self):
-        """
-        Publishes and updates articles to Medium.
-        """
-        md_files = self._get_list_of_markdown_files()
-
-        for md_file in md_files:
-            if md_file in self.non_updated_articles:
-                self.logging.info(
-                    "Article, %s, already published! No changes are needed.",
-                    md_file,
-                )
-                continue
-
-            post_content = self._get_post_content(md_file)
-            article_id, is_currently_published = self._find_published_article_devto(
-                post_content
-            )
-            body_html = self.devto_client.get_article(
-                article_id, is_currently_published
-            )["body_html"]
-            post_content["bodyHtml"] = body_html
-
-            self.medium_client.publish_article(post_content)
-
     def _find_published_article_devto(self, post_content):
         """
         Finds and returns the ID of the published article.
@@ -133,14 +107,25 @@ class PostPublisher:
             markdown_text = f.read()
         frontmatter_data = frontmatter.loads(markdown_text)
 
+        # Remove frontmatter from markdown
+        md_text_without_frontmatter = self._remove_frontmatter(markdown_text)
+
+        # Adds TOC to the markdown text
+        toc = build_toc(md_file)
+        md_text_without_frontmatter = (
+            "## Table of Contents\n" + toc + "\n" + md_text_without_frontmatter
+        )
+
         # Removes center align for hashnode
         if 'align="center"' in markdown_text:
             self.logging.info("Removing center align for hashnode")
             markdown_text = markdown_text.replace(' align="center"', "")
 
+        print(md_text_without_frontmatter)
+
         return {
             "frontmatterData": frontmatter_data,
-            "bodyMarkdown": self._remove_frontmatter(markdown_text),
+            "bodyMarkdown": md_text_without_frontmatter,
         }
 
     def _remove_frontmatter(self, markdown_text):
@@ -174,4 +159,3 @@ class PostPublisher:
 if __name__ == "__main__":
     publisher = PostPublisher()
     publisher.publish_to_devto()
-    # publisher.publish_to_medium() Disabling publishing to medium because it sucks

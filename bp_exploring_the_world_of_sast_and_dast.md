@@ -6,19 +6,8 @@ tags: devsecops, application security, sast, dast
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712457482240/ROloDJ_Yo.jpg?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: false
+enableToc: true
 ---
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-1. [What Exactly is SAST?](#what-exactly-is-sast)
-1. [Discovering DAST: The Dynamic Cousin](#discovering-dast-the-dynamic-cousin)
-1. [Key Differences Between SAST and DAST](#key-differences-between-sast-and-dast)
-1. [When to Use SAST and DAST](#when-to-use-sast-and-dast)
-1. [Tools of the Trade](#tools-of-the-trade)
-   - [SAST Tools](#sast-tools)
-   - [DAST Tools](#dast-tools)
-1. [Conclusion](#conclusion)
 
 ## Introduction
 

@@ -6,19 +6,8 @@ tags: development, opensource, community, beginners
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714356159707/1kEQqxiBf.jpg?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: false
+enableToc: true
 ---
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-1. [Overcoming Imposter Syndrome](#overcoming-imposter-syndrome)
-1. [Step 1: Identify Your Passion](#step-1-identify-your-passion)
-1. [Step 2: Understand the Project's History](#step-2-understand-the-projects-history)
-1. [Step 3: Assess Project Activity](#step-3-assess-project-activity)
-1. [Step 4: Read Contributing Guidelines](#step-4-read-contributing-guidelines)
-1. [Step 5: Don't Hesitate to Seek Help](#step-5-dont-hesitate-to-seek-help)
-1. [Ready to Contribute?](#ready-to-contribute)
-1. [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -51,8 +40,6 @@ When selecting a project to contribute to, it's essential to gauge its activity 
 
 Open Policy Agent (OPA) serves as a prime example of an active project with a vibrant community and robust development activity. The project's GitHub repository showcases frequent commits and releases, indicative of ongoing maintenance and engagement from contributors.
 
-#### Good Commit History Example: Open Policy Agent (OPA)
-
 ![OPA Good Commit History](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/lessons_learned_open_source/opa_good_commit_history.webp align="center")
 
 ### Dead Project Example: PACU
@@ -61,13 +48,9 @@ Open Policy Agent (OPA) serves as a prime example of an active project with a vi
 
 On the other hand, projects with minimal recent activity may indicate a stagnant or "dead" status, making them less conducive to new contributions. Pacu, for instance, exhibits signs of stagnation with infrequent releases and sparse commit history.
 
-
-#### Bad Commit History: PACU
 ![Insert Figure 4: Commit History of Pacu](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/lessons_learned_open_source/pacu_commit_history.webp align="center")
 
 In such cases, it's advisable to seek out more active projects to maximize your contribution potential.
-
-### Example: Open Policy Agent (OPA)
 
 ![Insert Figure 5: Filtered 'Good First Issues'](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/lessons_learned_open_source/opa_good_first_issue.webp align="center")
 
@@ -88,8 +71,6 @@ Armed with these lessons and insights, you're now equipped to embark on your jou
 Documentation, for instance, plays a crucial role in the success of open-source projects and often requires updates or enhancements. If you're not comfortable with coding initially, consider exploring documentation-related tasks tagged as "good first issues."
 
 Remember, every contribution, big or small, makes a difference in advancing open-source projects and enriching the broader developer community.
-
-### Release Annoucement Example (v0.40.0): Open Policy Agent
 
 ![OPA Release Annoucement Example](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/lessons_learned_open_source/opa_release_v0.40.0.webp align="center")
 

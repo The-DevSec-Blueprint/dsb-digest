@@ -6,28 +6,8 @@ tags: devsecops, beginners, devops, cybersecurity
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713473788400/tUhK8ZvMa.jpg?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: false
+enableToc: true
 ---
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-1. [CompTIA Security+](#1-comptia-security)
-   - [Why It Matters](#why-it-matters)
-   - [What You'll Learn](#what-youll-learn)
-   - [Certification Details](#certification-details)
-1. [CompTIA Linux+](#2-comptia-linux)
-   - [Why It Matters](#why-it-matters-1)
-   - [What You'll Learn](#what-youll-learn-1)
-   - [Certification Details](#certification-details-1)
-1. [AWS Certified Developer - Associate](#3-aws-certified-developer---associate)
-   - [Why It Matters](#why-it-matters-2)
-   - [What You'll Learn](#what-youll-learn-2)
-   - [Certification Details](#certification-details-2)
-1. [Certified Kubernetes Administrator (CKA)](#4-certified-kubernetes-administrator-cka)
-   - [Why It Matters](#why-it-matters-3)
-   - [What You'll Learn](#what-youll-learn-3)
-   - [Certification Details](#certification-details-3)
-1. [Conclusion](#conclusion)
 
 ## Introduction
 

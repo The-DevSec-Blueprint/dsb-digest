@@ -6,21 +6,8 @@ tags: aws, cybersecurity, awscertified, beginners
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715459250522/gM-1W5Mnp.jpg?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: true
+enableToc: true
 ---
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-1. [Why It's Essential to Start with the AWS Certified Solutions Architect Associate](#why-its-essential-to-start-with-the-aws-certified-solutions-architect-associate)
-1. [Understanding the AWS Security Specialty Exam](#understanding-the-aws-security-specialty-exam)
-   - [Key Points About the Exam](#key-points-about-the-exam)
-1. [Key Resources for Preparing the AWS Security Specialty Exam](#key-resources-for-preparing-the-aws-security-specialty-exam)
-   - [Stephane Maarek's Ultimate AWS Certified Security Specialty Course](#1-stephane-maareks-ultimate-aws-certified-security-specialty-course)
-   - [AWS Security Specialty Focus Labs by Whizlabs](#2-aws-security-specialty-focus-labs-by-whizlabs)
-   - [TutorialsDojo’s Practice Exams and Cheat Sheets](#3-tutorialsdojos-practice-exams-and-cheat-sheets)
-   - [Leveraging Insights from Becky Weiss’s Talk](#4-leveraging-insights-from-becky-weisss-talk)
-1. [Key AWS Services to Focus On](#key-aws-services-to-focus-on)
-1. [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -59,19 +46,19 @@ Let’s dive into some top resources that helped me ace this exam. There are a t
 
 >**NOTE**: Click the images within each section to be redirected to the source as you continue to scroll down.
 
-### 1. Stephane Maarek's Ultimate AWS Certified Security Specialty Course
+### Stephane Maarek's Ultimate AWS Certified Security Specialty Course
 
 [![Placeholder for Stephane Maarek's course banner](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/mastering_the_aws_scs/stephanes_course_image.jpeg align="center")](https://www.udemy.com/course/ultimate-aws-certified-security-specialty/)
 
 This is one of the highest-rated courses out there for the Security Specialty exam. Stephane Maarek, known for his ability to demystify complex AWS concepts succinctly, has prepared around 16 hours of on-demand videos which are hosted on Udemy. The course also includes hands-on labs, essential for practical understanding. However, there is no sandbox environment provided, so you'll need to make sure you request your own AWS account. Using some AWS services during the course in your own account might cost a bit, but it’s a worthwhile investment for your preparation.
 
-### 2. AWS Security Specialty Focus Labs by Whizlabs
+### AWS Security Specialty Focus Labs by Whizlabs
 
 [![Whizlabs SCS Labs](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/mastering_the_aws_scs/whizlabs_labs.png align="center")](https://www.whizlabs.com/aws-certified-security-specialty/)
 
 Hands-on experience is **crucial**, and that’s why I also recommend the AWS Security Specialty Focus Labs offered by Whizlabs. With around 54 labs tailored to various exam domains like Threat Detection and Identity Access Management (IAM), these labs are **SUPER invaluable**. Unfortunately, these labs are not free. These labs are priced at $65.95, so be sure to keep an eye out for sales to grab a good deal!
 
-### 3. TutorialsDojo’s Practice Exams and Cheat Sheets
+### TutorialsDojo’s Practice Exams and Cheat Sheets
 
 [![TutorialsDojo Practice Exams](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/mastering_the_aws_scs/practice_exams.jpeg align="center")](https://portal.tutorialsdojo.com/courses/aws-certified-security-specialty-practice-exams-scs-c02/)
 
@@ -81,7 +68,7 @@ TutorialsDojo is another excellent resource that I constantly use for AWS exams.
 
 Furthermore, their cheat sheets also provide detailed notes on services that you'll come across in the exam, which I highly recommend you leverage as much as possible.
 
-### 4. Leveraging Insights from Becky Weiss’s Talk
+### Leveraging Insights from Becky Weiss’s Talk
 
 [![Becky's Talk](https://img.youtube.com/vi/-ObImxw1PmI/0.jpg align="center")](https://www.youtube.com/watch?v=-ObImxw1PmI)
 

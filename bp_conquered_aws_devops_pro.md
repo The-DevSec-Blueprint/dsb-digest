@@ -9,18 +9,6 @@ saveAsDraft: false
 enableToc: true
 ---
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Understanding the Exam](#understanding-the-exam)
-  - [Why This Certification?](#why-this-certification)
-- [Prerequisites and Preparations](#prerequisites-and-preparations)
-  - [Resources Used](#resources-used)
-  - [My Study Schedule](#my-study-schedule)
-  - [Emphasized Services](#emphasized-services)
-- [Testing Experience and Tips](#testing-experience-and-tips)
-- [Conclusion](#conclusion)
-
 ## Introduction
 
 In this article, I will share my journey on how to successfully pass the AWS Certified DevOps Engineer Professional exam in just 60 days. My hope is that by sharing my experience, resources, study plan, and some crucial tips, I can help you navigate your way to acing this challenging certification exam.
