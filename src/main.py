@@ -121,8 +121,6 @@ class PostPublisher:
             self.logging.info("Removing center align for hashnode")
             markdown_text = markdown_text.replace(' align="center"', "")
 
-        print(md_text_without_frontmatter)
-
         return {
             "frontmatterData": frontmatter_data,
             "bodyMarkdown": md_text_without_frontmatter,
