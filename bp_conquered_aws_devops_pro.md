@@ -6,19 +6,20 @@ tags: aws, awscertified, dopc02, devops
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712782655300/L1KQilgA9.jpg?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: false
+enableToc: true
 ---
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-1. [Understanding the Exam](#understanding-the-exam)
-   - [Why This Certification?](#why-this-certification)
-1. [Prerequisites and Preparations](#prerequisites-and-preparations)
-   - [Resources Used](#resources-used)
-   - [My Study Schedule](#my-study-schedule)
-   - [Emphasized Services](#emphasized-services)
-1. [Testing Experience and Tips](#testing-experience-and-tips)
-1. [Conclusion](#conclusion)
+- [Introduction](#introduction)
+- [Understanding the Exam](#understanding-the-exam)
+  - [Why This Certification?](#why-this-certification)
+- [Prerequisites and Preparations](#prerequisites-and-preparations)
+  - [Resources Used](#resources-used)
+  - [My Study Schedule](#my-study-schedule)
+  - [Emphasized Services](#emphasized-services)
+- [Testing Experience and Tips](#testing-experience-and-tips)
+- [Conclusion](#conclusion)
 
 ## Introduction
 
