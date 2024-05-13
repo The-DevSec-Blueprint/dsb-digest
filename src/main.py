@@ -117,9 +117,9 @@ class PostPublisher:
         )
 
         # Removes center align for hashnode
-        if 'align="center"' in markdown_text:
+        if 'align="center"' in md_text_without_frontmatter:
             self.logging.info("Removing center align for hashnode")
-            markdown_text = markdown_text.replace(' align="center"', "")
+            md_text_without_frontmatter = md_text_without_frontmatter.replace(' align="center"', "")
 
         return {
             "frontmatterData": frontmatter_data,
