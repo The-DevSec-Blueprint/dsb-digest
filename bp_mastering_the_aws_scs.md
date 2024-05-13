@@ -5,7 +5,7 @@ slug: mastering-the-aws-security-specialty-exam-quickly
 tags: aws, cybersecurity, awscertified, beginners
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715459250522/gM-1W5Mnp.jpg?auto=format
 domain: damienjburks.hashnode.dev
-saveAsDraft: true
+saveAsDraft: false
 enableToc: true
 ---
 
