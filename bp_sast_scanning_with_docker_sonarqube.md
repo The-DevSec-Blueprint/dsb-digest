@@ -6,6 +6,7 @@ tags: SAST, SonarQube, Docker, Security, DevSecOps
 domain: damienjburks.hashnode.dev
 saveAsDraft: true
 enableToc: true
+seriesSlug: sast-dast-docker
 ---
 
 ## Introduction
