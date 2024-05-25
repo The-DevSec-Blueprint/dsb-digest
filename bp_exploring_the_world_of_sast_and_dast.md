@@ -7,7 +7,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712457482240/ROloDJ_
 domain: damienjburks.hashnode.dev
 saveAsDraft: false
 enableToc: true
-seriesSlug: sast-and-dast-scanning
+seriesSlug: sast-dast-docker
 ---
 
 ## Introduction
