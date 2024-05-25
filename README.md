@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository will contain a list of all blog posts that are uploaded/committed to Hashnode, <del>Medium</del>, and Dev.TO. This is the parent repository for the DevSec Blueprint and all of Damien's blog posts that he's written over the course of his career.
+This repository will contain a list of all blog posts that are uploaded/committed to Hashnode and Dev.TO. This is the parent repository for the DevSec Blueprint and all of Damien's blog posts that he's written over the course of his career.
 
 >**PSA:** Make sure you read your own damn docs for your own good, because you and I both know you tend to _"forget"_!
 
@@ -47,11 +47,3 @@ This repository will contain a list of all blog posts that are uploaded/committe
     ```
 
     > **NOTE**: Make sure you have all of our environment variables configured before doing this. If you aren't sure, check out the GitHub Actions.
-
-## Things to Remember - Seriously....
-
-1. Medium sucks, and it doesn't support Markdown images (at least all of them). Don't do embedded markdown images.
-1. Medium sucks. Only PNGs or JPGs.
-1. Medium sucks. Make sure you pay attention to the APIs. They aren't supported anymore (EOL).
-
->**P.S.**: I am no longer publishing to Medium because it sucks...
