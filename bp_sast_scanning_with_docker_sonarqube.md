@@ -3,6 +3,7 @@ title: SAST Scanning with SonarQube and Docker
 slug: sast-scanning-with-sonarqube-and-docker
 subtitles: Learn how to set up and use SonarQube for Static Application Security Testing (SAST) with Docker.
 domain: damienjburks.hashnode.dev
+tags: cybersecurity, sast
 saveAsDraft: true
 enableToc: true
 seriesSlug: sast-dast-docker
