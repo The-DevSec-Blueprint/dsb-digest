@@ -1,8 +1,7 @@
 ---
-title: Boosting Code Quality with SonarQube SAST Scanning in a Dockerized Environment
-slug: boosting-code-quality-with-sonarqube-sast-scanning-in-a-dockerized-environment
+title: SAST Scanning with SonarQube and Docker
+slug: sast-scanning-with-sonarqube-and-docker
 subtitles: Learn how to set up and use SonarQube for Static Application Security Testing (SAST) with Docker.
-tags: SAST, SonarQube, Docker, Security, DevSecOps
 domain: damienjburks.hashnode.dev
 saveAsDraft: true
 enableToc: true
