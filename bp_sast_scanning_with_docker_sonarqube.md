@@ -19,13 +19,15 @@ As a seasoned Cloud DevSecOps Engineer with a keen interest in integrating robus
 
 Before we start talking about SonarQube or sonar scanning in general, let's talk about some of the prerequisites, right? On what it is that you actually need to have installed on your machine in order for you to be able to participate in this activity.
 
-![Docker Logo](path/to/docker-logo.png)
-![VS Code Logo](path/to/vscode-logo.png)
-![Git](path/to/git-logo.png)
+![Docker Logo](./assets/sast_scanning_with_docker_sonarqube/docker_logo.png)
 
 1. **[Docker](https://www.docker.com/products/docker-desktop)** - We're going to be launching the application from Docker and also running the scans using Docker as well.
 
+![VS Code Logo](./assets/sast_scanning_with_docker_sonarqube/vscode_icon.webp)
+
 1. **[VS Code](https://code.visualstudio.com/)** - This is not a hard requirement but highly recommended for viewing and editing files like the Markdown file and Docker Compose YAML file.
+
+![Git](./assets/sast_scanning_with_docker_sonarqube/Git_icon.svg.png)
 
 1. **[Git](https://git.com)** - We're going to need this to clone and checkout the repositories.
 
@@ -35,7 +37,7 @@ Before we start talking about SonarQube or sonar scanning in general, let's talk
 
 SonarQube is a self-managed automatic code review tool that systematically helps you deliver clean code. I've used SonarQube several times within the past to help me out with DevSecOps related work or really to scan my code.
 
-![SonarQube](path/to/sonarqube-image.png)
+![SonarQube](./assets/sast_scanning_with_docker_sonarqube/sonarqube_logo.png)
 
 The application can be integrated with various different IDEs and pipelines to build, test, and deploy your code, and to be able to scan your code for all kinds of issues—not just security issues. It could be refactoring issues that your code has and many other things. Here are some key features of SonarQube:
 
@@ -79,13 +81,13 @@ Docker Compose supports environment variables, making it easy to manage differen
 
 Let's get into the technical activity and cloning and setting up the vulnerable web application and SonarQube using Docker Compose and Git.
 
-### Cloning Vulnerable Web Application (TIWAPP)
+### Cloning Vulnerable Web Application (TIWAP)
 
-First, you’ll need to clone the **TWAPP** web application repository. I've specified the URL in the command below:
+First, you’ll need to clone the **TIWAP** web application repository. I've specified the URL in the command below:
 
 ```bash
-git clone <repository-URL>
-cd <cloned-repo-directory>
+git clone https://github.com/The-DevSec-Blueprint/TIWAP
+cd TIWAP
 ```
 
 #### Spinning Up the Environment
@@ -96,7 +98,7 @@ We will use Docker Compose to set up the necessary environment:
 docker-compose up -d
 ```
 
->**NOTE**: The `-d` flag runs the container in detached mode, but if you want to see real-time logs, you can run:
+>**NOTE**: The `-d` flag runs the container in detached mode, but if you want to see real-time logs, you can run the following command below:
 
 ```bash
 docker-compose up
@@ -110,9 +112,9 @@ To ensure the environment is up and running, navigate to `http://localhost:8000`
 
 1. **Clear your terminal**:
 
-    ```bash
-    clear
-    ```
+  ```bash
+  clear
+  ```
 
 1. **Docker Compose YAML File**
 
@@ -161,9 +163,9 @@ volumes:
 
 1. **Deploy SonarQube using Docker Compose:**
 
-    ```bash
-    docker-compose up -d
-    ```
+```bash
+docker-compose up -d
+```
 
 Give it about 5-10 minutes to download and set up the necessary Docker container images for SonarQube and its database.
 
@@ -276,3 +278,11 @@ By addressing both security vulnerabilities and code smells, you can ensure that
 SonarQube is a powerful tool for static application security testing (SAST). It allows you to identify vulnerabilities and code smells efficiently, ensuring that your application codebase is both secure and maintainable.
 
 Thank you so much for reading! I hope you were able to take away valuable insights about setting up and using SonarQube and the Sonar Scanner. Please make sure you like, subscribe, and drop a comment down below letting me know what you think about this guide and the blog overall.
+
+---
+
+_**Disclaimer:** This blog post reflects my personal experiences and opinions. This blogs original content is based off of the following video:
+
+[![Video](./assets/sast_scanning_with_docker_sonarqube/vid_thumbnail.svg)](https://youtu.be/UoAfU5iAhl0?si=x0gaP54T717ds9JJ)
+
+_All images located in the blog post have been sourced from different places. Click on the image to get redirected to the original source._
