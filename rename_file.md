@@ -1,12 +1,14 @@
 ---
-title: "DAST Scanning with OWASP ZAP and Docker"
-slug: "dast-scanning-owasp-zap-docker"
-subtitles: ["Performing DAST Scans Against Web Applications using OWASP ZAP and Docker"]
-tags: ["DAST", "OWASP ZAP", "Docker", "DevSecOps", "Web Security"]
-cover: "path/to/cover/image.jpg"
+title: DAST Scanning with OWASP ZAP and Docker
+slug: dast-scanning-owasp-zap-docker
+subtitle: Performing DAST Scans Against Web Applications using OWASP ZAP and Docker
+tags: docker, owasp, tutorial, cybersecurity
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716749102373/crEwBst1E.png?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: true
 enableToc: true
+seriesSlug: sast-dast-docker
+seriesName: SAST and DAST Scanning with Docker
 ---
 
 # Introduction
