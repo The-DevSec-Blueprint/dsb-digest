@@ -2,7 +2,7 @@
 title:  My Journey to Passing the AWS Certified Solutions Architect Associate Exam
 subtitle: A surefire way to pass the AWS SAA
 slug: my-journey-to-passing-the-aws-saa
-tags: aws, awscertified, beginners, community
+tags: aws, certification, beginners, community
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714365932617/G3PI4-dC1.jpg?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: false

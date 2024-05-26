@@ -2,7 +2,7 @@
 title: Is the AWS Certified Cloud Practitioner Certification Worth It?
 subtitle: Exposing the Value of the Certified Cloud Practitioner
 slug: is-the-ccp-worth-it
-tags: aws, community, beginner, awscertified
+tags: aws, community, beginner, certification
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713064878389/k7JaiozJM.jpg?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: false

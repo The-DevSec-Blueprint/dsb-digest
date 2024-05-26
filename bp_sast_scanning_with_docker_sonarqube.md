@@ -29,8 +29,6 @@ Before we start talking about SonarQube or sonar scanning in general, let's talk
 
 1. **[Git](https://git.com)** - We're going to need this to clone and checkout the repositories.
 
-> **Note:** Links to all the prerequisites, including the blog post about SAST and DAST scanning concepts, are located in the description.
-
 ## Understanding SonarQube
 
 ### What is SonarQube?
