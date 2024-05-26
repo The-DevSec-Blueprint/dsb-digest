@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "DAST Scanning with OWASP ZAP and Docker"
 slug: "dast-scanning-owasp-zap-docker"
@@ -143,6 +142,3 @@ Thank you for following along with this comprehensive guide on DAST scanning usi
 If you have any questions, comments, or feedback, feel free to reach out. Don’t forget to like, subscribe, and comment on my channel. Stay tuned for more insightful content!
 
 *Happy Scanning!*
-
-```
-Ensure to replace the placeholder paths for images and diagrams with actual image links when you add them to your post.
