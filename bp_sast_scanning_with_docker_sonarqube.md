@@ -2,8 +2,9 @@
 title: SAST Scanning with SonarQube and Docker
 slug: sast-scanning-with-sonarqube-and-docker
 subtitles: Learn how to set up and use SonarQube for Static Application Security Testing (SAST) with Docker.
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716749102373/crEwBst1E.png?auto=format
 domain: damienjburks.hashnode.dev
-tags: cybersecurity, sast
+tags: cybersecurity, sast, beginners, docker
 saveAsDraft: true
 enableToc: true
 seriesSlug: sast-dast-docker
@@ -11,9 +12,7 @@ seriesSlug: sast-dast-docker
 
 ## Introduction
 
-What's going on y'all? It's Damien with the DevSecBlueprint once again with another technical video. And in today's video, we're going to be performing SAST scans against code repositories using SonarQube. If you haven't taken a look at my video about SAST and DAST concepts, I highly recommend you look at it before we get started, since it'll give you a pretty decent overview of what SAST scanning is.
-
-And with that being stated, let's get right into it.
+As a seasoned Cloud DevSecOps Engineer with a keen interest in integrating robust security practices into the development lifecycle, I am thrilled to share insights and practical knowledge on enhancing code security. In this article, we will delve into the powerful combination of SAST (Static Application Security Testing) using SonarQube and Docker and explore how these tools can fortify your applications against vulnerabilities from the very start of the development process. This is a technical blog post or article, so get ready for some code to be shared and repositories to get cloned using Git.
 
 ## Prerequisites
 
@@ -81,9 +80,36 @@ Docker Compose supports environment variables, making it easy to manage differen
 
 ## Scanning and Inspecting Sonar Results
 
-### Setting Up SonarQube with Docker Compose
+Let's get into the technical activity and cloning and setting up the vulnerable web application and SonarQube using Docker Compose and Git.
 
-Let's get into the technical activity and start setting up SonarQube with Docker Compose.
+### Cloning Vulnerable Web Application (TIWAPP)
+
+First, you’ll need to clone the **TWAPP** web application repository. I've specified the URL in the command below:
+
+```bash
+git clone <repository-URL>
+cd <cloned-repo-directory>
+```
+
+#### Spinning Up the Environment
+
+We will use Docker Compose to set up the necessary environment:
+
+```bash
+docker-compose up -d
+```
+
+>**NOTE**: The `-d` flag runs the container in detached mode, but if you want to see real-time logs, you can run:
+
+```bash
+docker-compose up
+```
+
+### Verifying the Setup
+
+To ensure the environment is up and running, navigate to `http://localhost:8000` in your web browser.
+
+### Setting Up SonarQube with Docker Compose
 
 1. **Clear your terminal**:
 
