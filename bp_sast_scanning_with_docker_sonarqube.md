@@ -13,7 +13,7 @@ seriesName: SAST and DAST Scanning with Docker
 
 ## Introduction
 
-As a seasoned Cloud DevSecOps Engineer with a keen interest in integrating robust security practices into the development lifecycle, I am thrilled to share insights and practical knowledge on enhancing code security. In this article, we will delve into the powerful combination of SAST (Static Application Security Testing) using SonarQube and Docker and explore how these tools can fortify your applications against vulnerabilities from the very start of the development process. This is a technical blog post or article, so get ready for some code to be shared and repositories to get cloned using Git.
+As a seasoned Cloud DevSecOps Engineer with a keen interest in integrating robust security practices into the development lifecycle, I am thrilled to share insights and practical knowledge on enhancing code security. In this article, we will delve into the powerful combination of SAST (Static Application Security Testing) using SonarQube and Docker and explore how these tools can fortify your applications against vulnerabilities. This is a technical blog post or article, so get ready for some code to be shared and repositories to get cloned using Git.
 
 ## Prerequisites
 
@@ -112,9 +112,9 @@ To ensure the environment is up and running, navigate to `http://localhost:8000`
 
 1. **Clear your terminal**:
 
-  ```bash
-  clear
-  ```
+```bash
+clear
+```
 
 1. **Docker Compose YAML File**
 
