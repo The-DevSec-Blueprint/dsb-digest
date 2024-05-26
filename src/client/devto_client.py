@@ -35,6 +35,7 @@ class DevToClient:
             Exception: If there is an error publishing the post.
         """
         canonical_url = f"https://{post_content['frontmatterData']['domain']}/{post_content['frontmatterData']['slug']}"
+        series_name = post_content["frontmatterData"].get("seriesName")
 
         data = {
             "article": {
@@ -44,6 +45,7 @@ class DevToClient:
                 "main_image": post_content["frontmatterData"]["cover"],
                 "tags": post_content["frontmatterData"]["tags"],
                 "body_markdown": post_content["bodyMarkdown"],
+                "series": series_name if series_name is not None else "",
                 "published": published,
             }
         }
@@ -71,8 +73,9 @@ class DevToClient:
             Exception: If there is an error updating the post.
         """
         url = f"{ARTICLES_URL}/{article_id}"
-
         canonical_url = f"https://{post_content['frontmatterData']['domain']}/{post_content['frontmatterData']['slug']}"
+        series_name = post_content["frontmatterData"].get("seriesName")
+
         data = {
             "article": {
                 "title": post_content["frontmatterData"]["title"],
@@ -81,6 +84,7 @@ class DevToClient:
                 "main_image": post_content["frontmatterData"]["cover"],
                 "tags": post_content["frontmatterData"]["tags"],
                 "body_markdown": post_content["bodyMarkdown"],
+                "series": series_name if series_name is not None else "",
                 "published": published,
             }
         }
