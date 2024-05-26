@@ -37,19 +37,17 @@ SonarQube is a self-managed automatic code review tool that systematically helps
 
 ![SonarQube](path/to/sonarqube-image.png)
 
-The application can be integrated with various different IDEs and pipelines to build, test, and deploy your code, and to be able to scan your code for all kinds of issues—not just security issues. It could be refactoring issues that your code has and many other things.
-
-Key features include:
+The application can be integrated with various different IDEs and pipelines to build, test, and deploy your code, and to be able to scan your code for all kinds of issues—not just security issues. It could be refactoring issues that your code has and many other things. Here are some key features of SonarQube:
 
 1. **Quality Gates**: A score that defines how well-maintained and secure your entire application code base is.
 2. **Supports 30+ Languages**: Including popular languages and frameworks.
-3. **Integration with DevOps Platforms**: GitHub, GitLab, BitBucket, Azure, etc.
+3. **Integration with DevOps & CI Platforms**: GitHub, GitLab, BitBucket, Azure, etc.
 4. **Fast Analysis and Unified Configurations**
 5. **SonarLint IDE Integration**
 
 For our SAST scanning purposes, we are going to focus on leveraging SonarQube and the Sonar Scanner to identify security vulnerabilities within our code.
 
-SonarQube is free and open-source (unless you opt for the enterprise or data center editions). We will use the Community Edition, which still covers many features that help us scan our code for various issues.
+No need to worry about paying though. SonarQube is free and open-source (unless you opt for the enterprise or data center editions). We will use the Community Edition, which still covers many features that help us scan our code for various issues.
 
 ## Understanding Docker Compose
 

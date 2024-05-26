@@ -29,9 +29,7 @@ Having these installed will make the process smoother and more efficient.
 
 ## What is OWASP ZAP?
 
-OWASP ZAP (Zed Attack Proxy) is a highly popular open-source penetration testing tool designed to help developers and security professionals find vulnerabilities in their web applications.
-
-### Key Features:
+OWASP ZAP (Zed Attack Proxy) is a highly popular open-source penetration testing tool designed to help developers and security professionals find vulnerabilities in their web applications. Key features of OWASP ZAP include:
 
 - Identifies a wide range of vulnerabilities, including those within the OWASP Top 10 such as security misconfigurations, SQL injection, and cross-site scripting.
 - Capable of both **Active** and **Passive** scans.
@@ -51,7 +49,7 @@ It’s recommended to use passive scans in a production environment to minimize 
 
 Docker is a platform that allows us to package and run applications in an isolated environment called a container. This isolation offers several benefits, including security, ease of deployment, and the ability to run multiple containers simultaneously.
 
-### Key Concepts:
+### Key Concepts
 
 - **Container**: A lightweight standalone executable package that includes everything needed to run the application.
 - **Dockerfile**: A text document containing instructions to build a Docker image.
