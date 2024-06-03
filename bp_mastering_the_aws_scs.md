@@ -15,19 +15,19 @@ In this article, I will share my journey on how to successfully pass the AWS Cer
 
 ## Why It's Essential to Start with the AWS Certified Solutions Architect Associate
 
-![Solutions Architect Logo](<https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/mastering_the_aws_scs/solutions_architect_asc_logo.png> align="center")
+![Solutions Architect Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/mastering_the_aws_scs/solutions_architect_asc_logo.png align="center")
 
 First things first, if you’re aiming for the AWS Security Specialty certification, I highly recommend having the AWS Certified Solutions Architect Associate (SAA) under your belt. The foundational knowledge you gain from the Solutions Architect Associate is crucial. It not only prepares you with the basic principles of AWS architecture, but it also makes the uphill climb of the Security Specialty exam smoother.
 
 ## Understanding the AWS Security Specialty Exam
 
-![Logo for Security Specialty](<https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/mastering_the_aws_scs/security_specialty_logo.png> align="center")
+![Logo for Security Specialty](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/mastering_the_aws_scs/security_specialty_logo.png align="center")
 
 According to AWS, the Security Specialty exam validates your ability to design and implement security solutions on AWS. It checks your understanding in specialized data classifications, data protections, and the architectures for implementing security controls. I've highlighted some of the key points about the exam below.
 
 ### Key Points About the Exam
 
-![Exam Overview Snippet](<https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/mastering_the_aws_scs/exam_overview.png> align="center")
+![Exam Overview Snippet](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/mastering_the_aws_scs/exam_overview.png align="center")
 
 - **Type of Questions:** 65 questions, both multiple choice and multiple response.
 - **Duration:** 170 minutes, nearly three hours to clear the hurdles.

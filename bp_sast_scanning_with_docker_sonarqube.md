@@ -17,19 +17,19 @@ As a seasoned Cloud DevSecOps Engineer with a keen interest in integrating robus
 
 ## Prerequisites
 
-Before we start talking about SonarQube or sonar scanning in general, let's talk about some of the prerequisites, right? On what it is that you actually need to have installed on your machine in order for you to be able to participate in this activity.
+Before you can start scanning the vulnerable web application with SonarQube and inspecting the results, you'll want to ensure you have the following list of applications and software packages installed:
 
-![Docker Logo](./assets/sast_scanning_with_docker_sonarqube/docker_logo.png)
+  ![Docker Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/docker_logo.png align="center")
 
 1. **[Docker](https://www.docker.com/products/docker-desktop)** - We're going to be launching the application from Docker and also running the scans using Docker as well.
 
-![VS Code Logo](./assets/sast_scanning_with_docker_sonarqube/vscode_icon.webp)
+  ![VS Code Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/vscode_icon.webp align="center")
 
-1. **[VS Code](https://code.visualstudio.com/)** - This is not a hard requirement but highly recommended for viewing and editing files like the Markdown file and Docker Compose YAML file.
+2. **[VS Code](https://code.visualstudio.com/)** - This is not a hard requirement but highly recommended for viewing and editing files like the Markdown file and Docker Compose YAML file.
 
-![Git](./assets/sast_scanning_with_docker_sonarqube/Git_icon.svg.png)
+  ![Git](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/Git_icon.svg.png align="center")
 
-1. **[Git](https://git.com)** - We're going to need this to clone and checkout the repositories.
+3. **[Git](https://git.com)** - We're going to need this to clone and checkout the repositories.
 
 ## Understanding SonarQube
 
@@ -37,7 +37,7 @@ Before we start talking about SonarQube or sonar scanning in general, let's talk
 
 SonarQube is a self-managed automatic code review tool that systematically helps you deliver clean code. I've used SonarQube several times within the past to help me out with DevSecOps related work or really to scan my code.
 
-![SonarQube](./assets/sast_scanning_with_docker_sonarqube/sonarqube_logo.png)
+![SonarQube](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/sonarqube_logo.png align="center")
 
 The application can be integrated with various different IDEs and pipelines to build, test, and deploy your code, and to be able to scan your code for all kinds of issues—not just security issues. It could be refactoring issues that your code has and many other things. Here are some key features of SonarQube:
 
@@ -79,7 +79,7 @@ Docker Compose supports environment variables, making it easy to manage differen
 
 ## Scanning and Inspecting Sonar Results
 
-Let's get into the technical activity and cloning and setting up the vulnerable web application and SonarQube using Docker Compose and Git.
+Now that the conceptual part is over, let's get into the technical activity and cloning and setting up the vulnerable web application and SonarQube using Docker Compose and Git.
 
 ### Cloning Vulnerable Web Application (TIWAP)
 
@@ -87,6 +87,8 @@ First, you’ll need to clone the **TIWAP** web application repository. I've spe
 
 ```bash
 git clone https://github.com/The-DevSec-Blueprint/TIWAP
+
+# Once it's cloned, you want to CD into the directory.
 cd TIWAP
 ```
 
@@ -98,7 +100,7 @@ We will use Docker Compose to set up the necessary environment:
 docker-compose up -d
 ```
 
->**NOTE**: The `-d` flag runs the container in detached mode, but if you want to see real-time logs, you can run the following command below:
+> **NOTE**: The `-d` flag runs the container in detached mode, but if you want to see real-time logs, you can run the following command below:
 
 ```bash
 docker-compose up
@@ -112,70 +114,71 @@ To ensure the environment is up and running, navigate to `http://localhost:8000`
 
 1. **Clear your terminal**:
 
-```bash
-clear
-```
+  ```bash
+  clear
+  ```
 
-1. **Docker Compose YAML File**
+2. **Create the Docker Compose YAML File**
 
-Here’s the `docker-compose.yml` file we will use:
+  You'll want to create another `docker-compose.yml` file. I'd highly recommend you create another folder or subdirectory within the TIWAP project, create the file, and then copy and paste the contents below in it:
 
-```yaml
-version: "1"
+  ```yaml
+  version: "1"
 
-services:
-  sonarqube:
-    image: sonarqube:lts-community
-    depends_on:
-      - sonar_db
-    environment:
-      SONAR_JDBC_URL: jdbc:postgresql://sonar_db:5432/sonar
-      SONAR_JDBC_USERNAME: sonar
-      SONAR_JDBC_PASSWORD: sonar
-    ports:
-      - "9001:9000"
-    volumes:
-      - sonarqube_conf:/opt/sonarqube/conf
-      - sonarqube_data:/opt/sonarqube/data
-      - sonarqube_extensions:/opt/sonarqube/extensions
-      - sonarqube_logs:/opt/sonarqube/logs
-      - sonarqube_temp:/opt/sonarqube/temp
+  services:
+    sonarqube:
+      image: sonarqube:lts-community
+      depends_on:
+        - sonar_db
+      environment:
+        SONAR_JDBC_URL: jdbc:postgresql://sonar_db:5432/sonar
+        SONAR_JDBC_USERNAME: sonar
+        SONAR_JDBC_PASSWORD: sonar
+      ports:
+        - "9001:9000"
+      volumes:
+        - sonarqube_conf:/opt/sonarqube/conf
+        - sonarqube_data:/opt/sonarqube/data
+        - sonarqube_extensions:/opt/sonarqube/extensions
+        - sonarqube_logs:/opt/sonarqube/logs
+        - sonarqube_temp:/opt/sonarqube/temp
 
-  sonar_db:
-    image: postgres:13
-    environment:
-      POSTGRES_USER: sonar
-      POSTGRES_PASSWORD: sonar
-      POSTGRES_DB: sonar
-    volumes:
-      - sonar_db:/var/lib/postgresql
-      - sonar_db_data:/var/lib/postgresql/data
+    sonar_db:
+      image: postgres:13
+      environment:
+        POSTGRES_USER: sonar
+        POSTGRES_PASSWORD: sonar
+        POSTGRES_DB: sonar
+      volumes:
+        - sonar_db:/var/lib/postgresql
+        - sonar_db_data:/var/lib/postgresql/data
 
-volumes:
-  sonarqube_conf:
-  sonarqube_data:
-  sonarqube_extensions:
-  sonarqube_logs:
-  sonarqube_temp:
-  sonar_db:
-  sonar_db_data:
-```
+  volumes:
+    sonarqube_conf:
+    sonarqube_data:
+    sonarqube_extensions:
+    sonarqube_logs:
+    sonarqube_temp:
+    sonar_db:
+    sonar_db_data:
+  ```
 
-1. **Deploy SonarQube using Docker Compose:**
+3. **Deploy SonarQube using Docker Compose:**
 
-```bash
-docker-compose up -d
-```
+  ```bash
+  docker-compose up -d
+  ```
 
-Give it about 5-10 minutes to download and set up the necessary Docker container images for SonarQube and its database.
+  Give it about 5-10 minutes to download and set up the necessary Docker container images for SonarQube and its database.
 
 ### Logging into SonarQube
 
 Once SonarQube is fully operational, navigate to `http://localhost:9000` in your web browser.
 
 1. **Login Credentials**:
-    - **Username**: `admin`
-    - **Password**: `admin`
+
+   - **Username**: `admin`
+   - **Password**: `admin`
 
 2. **Change the default password** when prompted.
 
@@ -195,7 +198,7 @@ You'll want to generate a token for Sonar Scanner and keep it safe as you'll nee
 Navigate to your project directory in the terminal where you have cloned the vulnerable web application repository.
 
 ```bash
-cd /path/to/your/project-directory
+cd TIWAP
 ```
 
 Run the following command to scan your project with SonarQube:
@@ -212,12 +215,12 @@ The scan will take some time. Once completed, results will be published to your 
 
 Log into the SonarQube console and navigate to your project to review the results. The scan results will be categorized into different sections like Bugs, Vulnerabilities, Code Smells, etc.
 
-**Security Vulnerabilities**:
+#### Security Vulnerabilities
 
 Security vulnerabilities are critical issues within your code that can be exploited by malicious actors to compromise the integrity, confidentiality, or availability of your application. Identifying and addressing these vulnerabilities is paramount to maintaining a secure codebase. SonarQube's SAST (Static Application Security Testing) capabilities help detect these issues early in the development lifecycle, enabling you to fix them before they become significant problems.
 
 - **Example: Enable SSL Certification Validation**:
-  
+
   One common security vulnerability is having SSL certification validation disabled in your application. SSL (Secure Sockets Layer) certificates are essential for establishing encrypted connections between clients and servers, ensuring that data transferred over the network is secure and cannot be intercepted by unauthorized parties. If SSL certification validation is set to false, your application is vulnerable to man-in-the-middle (MITM) attacks, where attackers can intercept and manipulate the data being exchanged.
 
   **Solution**:
@@ -232,14 +235,12 @@ Security vulnerabilities are critical issues within your code that can be exploi
 
   By enabling SSL certification validation, you can protect your application from potential security breaches and ensure that your data remains secure.
 
-  ![Security Vulnerabilities](path/to/security-vulnerabilities.png)
-
-**Code Smells**:
+#### Code Smells
 
 Code smells are indicators of potential problems in your code that, while not necessarily bugs, can lead to maintainability issues and increased technical debt. SonarQube identifies code smells and provides recommendations to improve the quality, readability, and maintainability of your code. Addressing code smells helps ensure that your codebase remains clean and efficient, making it easier to manage and extend over time.
 
 - **Example: Avoid Duplicating Strings or Literals**:
-  
+
   A common code smell is the duplication of strings or literals multiple times throughout your code. This practice can lead to inconsistencies and make your code harder to maintain. For instance, if a string value changes, you will need to update it in multiple places, increasing the risk of errors and inconsistencies.
 
   **Solution**:
@@ -269,8 +270,6 @@ Code smells are indicators of potential problems in your code that, while not ne
 
   By avoiding the duplication of strings or literals, you can improve the maintainability and readability of your code, making it easier to update and extend in the future.
 
-  ![Code Smells](path/to/code-smells.png)
-
 By addressing both security vulnerabilities and code smells, you can ensure that your codebase is not only secure but also clean and maintainable, leading to more robust and reliable software development practices.
 
 ## Conclusion
@@ -281,8 +280,8 @@ Thank you so much for reading! I hope you were able to take away valuable insigh
 
 ---
 
-_**Disclaimer:** This blog post reflects my personal experiences and opinions. This blogs original content is based off of the following video:
+**Disclaimer:** This blog post reflects my personal experiences and opinions. This blogs original content is based off of the following video:
 
-[![Video](./assets/sast_scanning_with_docker_sonarqube/vid_thumbnail.svg)](https://youtu.be/UoAfU5iAhl0?si=x0gaP54T717ds9JJ)
+[![Video](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/vid_thumbnail.svg align="center")](https://youtu.be/UoAfU5iAhl0?si=x0gaP54T717ds9JJ)
 
 _All images located in the blog post have been sourced from different places. Click on the image to get redirected to the original source._
