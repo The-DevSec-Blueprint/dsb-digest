@@ -92,6 +92,8 @@ git clone https://github.com/The-DevSec-Blueprint/TIWAP
 cd TIWAP
 ```
 
+>**NOTE**: If you're looking for a reference repository with the completed files and more directions, feel free to view the completed code here: [Completed Code w/ more steps and explanations](https://github.com/The-DevSec-Blueprint/sonarqube-scanning-dockercompose)
+
 #### Spinning Up the Environment
 
 We will use Docker Compose to set up the necessary environment:
@@ -162,6 +164,29 @@ To ensure the environment is up and running, navigate to `http://localhost:8000`
     sonar_db:
     sonar_db_data:
   ```
+
+  This Docker command runs a container based on the `sonarsource/sonar-scanner-cli` image with the specified parameters. Here's a breakdown of each part:
+
+    1. `docker run`: This command is used to run a Docker container.
+
+    2. `--rm`: This flag ensures that the container is removed after it stops running. It helps in keeping your system clean by automatically removing the container once it's done executing.
+
+    3. `--network=host`: This flag specifies that the container should share the network namespace with the Docker host, allowing it to access services running on the host's network. In this case, it's often used to allow the container to access services running on localhost.
+
+    4. `-e SONAR_HOST_URL="http://localhost:9001"`: This sets an environment variable `SONAR_HOST_URL` with the value `http://localhost:9001`. It defines the URL of the SonarQube server that the Sonar scanner should connect to for analysis.
+
+    5. `-v "<your_absolute_path>:/usr/src"`: This mounts a volume from the host machine to the container. It maps the local directory `<your_absolute_path>` to the directory `/usr/src` inside the container. This allows the Sonar scanner to access the project files located on the host machine.
+
+    6. `sonarsource/sonar-scanner-cli`: This specifies the Docker image to be used for running the container. In this case, it's the official Sonar scanner CLI image provided by SonarSource.
+
+    7. `-D` flags: These are parameters passed to the Sonar scanner CLI within the container. They provide configuration options for the SonarQube analysis:
+        - `sonar.projectKey`: Specifies the unique key for the project in SonarQube.
+        - `sonar.sonar.projectVersion`: Specifies the version of the project.
+        - `sonar.sonar.language`: Specifies the programming language of the project (Python in this case).
+        - `sonar.sonar.sourceEncoding`: Specifies the encoding of the source files.
+        - `sonar.login`: Specifies the authentication token or credentials required to connect to the SonarQube server.
+        - `sonar.sonar.projectBaseDir`: Specifies the base directory of the project within the container.
+        - `sonar.sources=.`: Specifies the directory containing the source files to be analyzed. In this case, it's set to `.` which typically represents the current directory.
 
 - **Deploy SonarQube using Docker Compose:**
 
@@ -282,11 +307,23 @@ Code smells are indicators of potential problems in your code that, while not ne
 
 By addressing both security vulnerabilities and code smells, you can ensure that your codebase is not only secure but also clean and maintainable, leading to more robust and reliable software development practices.
 
+## Cleaning Up
+
+Now that we're done with everything, let's clean up behind ourselves. You'll want to run the following commands to remove all of the attached volumes and purge all of the containers and images:
+
+```bash
+# Delete volumes (database, etc.)
+docker-compose down --volumes
+
+# Optional: Purge all images, networks, containers
+docker system prune -a -f
+```
+
 ## Conclusion
 
-SonarQube is a powerful tool for static application security testing (SAST). It allows you to identify vulnerabilities and code smells efficiently, ensuring that your application codebase is both secure and maintainable.
+To conclude, SonarQube is a powerful tool for static application security testing (SAST). It allows you to identify vulnerabilities and code smells efficiently, ensuring that your application codebase is both secure and maintainable.
 
-Thank you so much for reading! I hope you were able to take away valuable insights about setting up and using SonarQube and the Sonar Scanner. Until next time, keep scanning your code, and do your best to ensure it is secure and maintainable.
+Thank you so much for reading! I hope you were able to take away valuable insights about setting up and using SonarQube, the Sonar Scanner, and Docker. Until next time, keep scanning your code, and do your best to ensure it is secure and maintainable.
 
 ---
 
