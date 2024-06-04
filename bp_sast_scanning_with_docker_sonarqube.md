@@ -19,7 +19,7 @@ As a seasoned Cloud DevSecOps Engineer with a keen interest in integrating robus
 
 Before you can start scanning the vulnerable web application with SonarQube and inspecting the results, you'll want to ensure you have the following list of applications and software packages installed:
 
-  ![Docker Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/docker_logo.png align="center")
+  ![Docker Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/docker-logo-blue.svg align="center")
 
 - **[Docker](https://www.docker.com/products/docker-desktop)** - We're going to be launching the application from Docker and also running the scans using Docker as well.
 
@@ -37,7 +37,7 @@ Before you can start scanning the vulnerable web application with SonarQube and 
 
 SonarQube is a self-managed automatic code review tool that systematically helps you deliver clean code. I've used SonarQube several times within the past to help me out with DevSecOps related work or really to scan my code.
 
-![SonarQube](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/sonarqube_logo.webp align="center")
+![SonarQube](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/sonarqube-logo.svg align="center")
 
 The application can be integrated with various different IDEs and pipelines to build, test, and deploy your code, and to be able to scan your code for all kinds of issues—not just security issues. It could be refactoring issues that your code has and many other things. Here are some key features of SonarQube:
 
