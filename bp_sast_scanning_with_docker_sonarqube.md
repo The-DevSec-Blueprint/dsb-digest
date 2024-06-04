@@ -5,7 +5,7 @@ subtitle: Learn how to set up and use SonarQube for Static Application Security 
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716750474233/-LD2XXalL.png?auto=format
 domain: damienjburks.hashnode.dev
 tags: docker, cybersecurity, owasp, tutorial
-saveAsDraft: true
+saveAsDraft: false
 enableToc: true
 seriesSlug: sast-dast-docker
 seriesName: SAST and DAST Scanning with Docker
@@ -25,7 +25,7 @@ Before you can start scanning the vulnerable web application with SonarQube and 
 
   ![VS Code Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/vscode_icon.webp align="center")
 
-- **[VS Code](https://code.visualstudio.com/)** - This is not a hard requirement but highly recommended for viewing and editing files like the Markdown file and Docker Compose YAML file.
+- **[VS Code](https://code.visualstudio.com/)** - This is not a hard requirement but highly recommended for viewing and editing files like the Docker Compose YAML file.
 
   ![Git](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/Git_icon.svg.png align="center")
 
@@ -49,7 +49,7 @@ The application can be integrated with various different IDEs and pipelines to b
 
 For our SAST scanning purposes, we are going to focus on leveraging SonarQube and the Sonar Scanner to identify security vulnerabilities within our code.
 
-No need to worry about paying though. SonarQube is free and open-source (unless you opt for the enterprise or data center editions). We will use the Community Edition, which still covers many features that help us scan our code for various issues.
+No need to worry about paying though. SonarQube is free and open-source _unless_ you opt-in for the enterprise or data center editions. We will use the Community Edition, which still covers many features that help us scan our code for various issues.
 
 ## Understanding Docker Compose
 
@@ -203,7 +203,7 @@ Navigate to your project directory in the terminal where you have cloned the vul
 cd TIWAP
 ```
 
-Run the following command to scan your project with SonarQube:
+Run the following command to scan your project with SonarQube. Be sure to replace the `<your_sonar_token>` string with your generated token and the `<your_absolute_path>` string with the absolute path to the TIWAP codebase:
 
 ```bash
 docker run \
@@ -221,7 +221,7 @@ sonarsource/sonar-scanner-cli \
     -Dsonar.sources=. 
 ```
 
-The scan will take some time _(roughly about 4-8 minutes)_. Once completed, results will be published to your SonarQube project as shown below:
+The scan will take some time _(roughly about 4-8 minutes)_, so feel free to take a stretch break! Once completed, the results will be published to your SonarQube project as shown below:
 
 ![SonarQube Results Below Example](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/sonarqube_results_example.png align="center")
 
