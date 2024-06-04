@@ -173,7 +173,7 @@ To ensure the environment is up and running, navigate to `http://localhost:8000`
 
 ### Logging into SonarQube
 
-Once SonarQube is fully operational, navigate to `http://localhost:9000` in your web browser.
+Once SonarQube is fully operational, navigate to `http://localhost:9001` in your web browser.
 
 1. **Login Credentials**:
 
@@ -182,7 +182,7 @@ Once SonarQube is fully operational, navigate to `http://localhost:9000` in your
 
 2. **Change the default password** when prompted.
 
-![SonarQube Login](path/to/sonarqube-login.png)
+![Changing Default Password](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/sonarqube_password_change.png align="center")
 
 ### Creating a Project in SonarQube
 
@@ -192,6 +192,9 @@ Create a new project in SonarQube to scan. For this example, we'll use a **vulne
 - **Project Name**: `Test Vulnerable App`
 
 You'll want to generate a token for Sonar Scanner and keep it safe as you'll need it for the scanning process.
+
+![Token Example for Sonar Scanner](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/sonarqube_token_example.png align="center")
+>**NOTE**: The highlighted token will not be valid; this is an example. Your token will be different and will be generated automatically.
 
 ### Running Sonar Scanner using Docker
 
@@ -204,12 +207,24 @@ cd TIWAP
 Run the following command to scan your project with SonarQube:
 
 ```bash
-docker run --rm --network=host -e SONAR_HOST_URL="http://localhost:9000" -e SONAR_LOGIN="your-generated-token" -v "$(pwd):/usr/src" sonarsource/sonar-scanner-cli
+docker run \
+--rm \
+--network=host \
+-e SONAR_HOST_URL="http://localhost:9001" \
+-v "<your_absolute_path>:/usr/src" \
+sonarsource/sonar-scanner-cli \
+    -Dsonar.projectKey=test-vulnerable-app \
+    -Dsonar.sonar.projectVersion=1.0 \
+    -Dsonar.sonar.language=py \
+    -Dsonar.sonar.sourceEncoding=UTF-8 \
+    -Dsonar.login=<your_sonar_token> \
+    -Dsonar.sonar.projectBaseDir=/root/src \
+    -Dsonar.sources=. 
 ```
 
-The scan will take some time. Once completed, results will be published to your SonarQube project:
+The scan will take some time _(roughly about 4-8 minutes)_. Once completed, results will be published to your SonarQube project as shown below:
 
-![SonarQube Scan Results](path/to/scan-results.png)
+![SonarQube Results Below Example](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/sonarqube_results_example.png align="center")
 
 ### Reviewing Results in SonarQube
 
@@ -223,6 +238,8 @@ Security vulnerabilities are critical issues within your code that can be exploi
 
   One common security vulnerability is having SSL certification validation disabled in your application. SSL (Secure Sockets Layer) certificates are essential for establishing encrypted connections between clients and servers, ensuring that data transferred over the network is secure and cannot be intercepted by unauthorized parties. If SSL certification validation is set to false, your application is vulnerable to man-in-the-middle (MITM) attacks, where attackers can intercept and manipulate the data being exchanged.
 
+  ![Example Vulnerability](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/ssl_disabled_vulnerability.png align="center")
+
   **Solution**:
   Ensure that SSL certification validation is enabled in all your connections. This can usually be done by configuring the appropriate settings in your application's connection properties or environment variables. For example, in a Python application using the `requests` library, you should ensure SSL verification is enabled:
 
@@ -230,7 +247,7 @@ Security vulnerabilities are critical issues within your code that can be exploi
   import requests
 
   # Correct way with SSL verification enabled
-  response = requests.get('https://example.com', verify=True)
+  response = requests.get('https://0.0.0.0:5001/api/stock/product?product=' + product, verify=True)
   ```
 
   By enabling SSL certification validation, you can protect your application from potential security breaches and ensure that your data remains secure.
@@ -243,29 +260,23 @@ Code smells are indicators of potential problems in your code that, while not ne
 
   A common code smell is the duplication of strings or literals multiple times throughout your code. This practice can lead to inconsistencies and make your code harder to maintain. For instance, if a string value changes, you will need to update it in multiple places, increasing the risk of errors and inconsistencies.
 
+  ![Code Smells Example](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/code_smells_example.png align="center")
+
   **Solution**:
   Use constants or configuration files to store commonly used strings or literals. This approach centralizes the values, making your code more manageable and reducing the risk of errors. For example, in a Python application, you might define constants in a separate module:
 
   ```python
   # constants.py
-  WELCOME_MESSAGE = "Welcome to our application!"
-  ERROR_MESSAGE = "An error has occurred."
+  MAIN_TEMPLATE = "index.html"
   ```
 
   Then, you can use these constants throughout your code instead of duplicating the string values:
 
   ```python
   # main.py
-  from constants import WELCOME_MESSAGE, ERROR_MESSAGE
-
-  def greet_user():
-      print(WELCOME_MESSAGE)
-
-  def handle_error():
-      print(ERROR_MESSAGE)
-
-  greet_user()
-  handle_error()
+  import constants
+  ...
+  return render_template(constants.MAIN_TEMPLATE)
   ```
 
   By avoiding the duplication of strings or literals, you can improve the maintainability and readability of your code, making it easier to update and extend in the future.
@@ -276,7 +287,7 @@ By addressing both security vulnerabilities and code smells, you can ensure that
 
 SonarQube is a powerful tool for static application security testing (SAST). It allows you to identify vulnerabilities and code smells efficiently, ensuring that your application codebase is both secure and maintainable.
 
-Thank you so much for reading! I hope you were able to take away valuable insights about setting up and using SonarQube and the Sonar Scanner. Please make sure you like, subscribe, and drop a comment down below letting me know what you think about this guide and the blog overall.
+Thank you so much for reading! I hope you were able to take away valuable insights about setting up and using SonarQube and the Sonar Scanner. Until next time, keep scanning your code, and do your best to ensure it is secure and maintainable.
 
 ---
 
