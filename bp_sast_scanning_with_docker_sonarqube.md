@@ -21,15 +21,15 @@ Before you can start scanning the vulnerable web application with SonarQube and 
 
   ![Docker Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/docker_logo.png align="center")
 
-1. **[Docker](https://www.docker.com/products/docker-desktop)** - We're going to be launching the application from Docker and also running the scans using Docker as well.
+- **[Docker](https://www.docker.com/products/docker-desktop)** - We're going to be launching the application from Docker and also running the scans using Docker as well.
 
   ![VS Code Logo](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/vscode_icon.webp align="center")
 
-2. **[VS Code](https://code.visualstudio.com/)** - This is not a hard requirement but highly recommended for viewing and editing files like the Markdown file and Docker Compose YAML file.
+- **[VS Code](https://code.visualstudio.com/)** - This is not a hard requirement but highly recommended for viewing and editing files like the Markdown file and Docker Compose YAML file.
 
   ![Git](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/Git_icon.svg.png align="center")
 
-3. **[Git](https://git.com)** - We're going to need this to clone and checkout the repositories.
+- **[Git](https://git.com)** - We're going to need this to clone and checkout the repositories.
 
 ## Understanding SonarQube
 
@@ -112,13 +112,13 @@ To ensure the environment is up and running, navigate to `http://localhost:8000`
 
 ### Setting Up SonarQube with Docker Compose
 
-1. **Clear your terminal**:
+- **Clear your terminal**:
 
   ```bash
   clear
   ```
 
-2. **Create the Docker Compose YAML File**
+- **Create the Docker Compose YAML File**
 
   You'll want to create another `docker-compose.yml` file. I'd highly recommend you create another folder or subdirectory within the TIWAP project, create the file, and then copy and paste the contents below in it:
 
@@ -163,7 +163,7 @@ To ensure the environment is up and running, navigate to `http://localhost:8000`
     sonar_db_data:
   ```
 
-3. **Deploy SonarQube using Docker Compose:**
+- **Deploy SonarQube using Docker Compose:**
 
   ```bash
   docker-compose up -d
@@ -175,12 +175,11 @@ To ensure the environment is up and running, navigate to `http://localhost:8000`
 
 Once SonarQube is fully operational, navigate to `http://localhost:9001` in your web browser.
 
-1. **Login Credentials**:
+- **Login Credentials**:
+  - **Username**: `admin`
+  - **Password**: `admin`
 
-   - **Username**: `admin`
-   - **Password**: `admin`
-
-2. **Change the default password** when prompted.
+- **Change the default password** when prompted.
 
 ![Changing Default Password](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/sonarqube_password_change.png align="center")
 
