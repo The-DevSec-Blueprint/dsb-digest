@@ -2,7 +2,7 @@
 title: Exploring the World of SAST and DAST with a DevSecOps Twist
 subtitle: Defining SAST and DAST in Layman's terms for DevSecOps Professionals
 slug: exploring-world-of-sast-and-dast
-tags: devsecops, application security, sast, dast
+tags: devsecops, cybersecurity, sast, dast
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712457482240/ROloDJ_Yo.jpg?auto=format
 domain: damienjburks.hashnode.dev
 saveAsDraft: false
