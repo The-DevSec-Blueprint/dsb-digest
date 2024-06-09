@@ -129,7 +129,7 @@ Until next time, keep learning, keep growing, and never stop exploring the vast 
 
 ---
 
-***Disclaimer:** This blog post reflects my personal experiences and opinions.*
+_**Disclaimer:** This blog post reflects my personal experiences and opinions._
 
 _This blogs original content is based off of the following [YouTube Video](https://www.youtube.com/watch?v=Gdgma1HtHks):_
 [![Four Certifications That Future DevSecOps Engineers Should Get!](https://img.youtube.com/vi/Gdgma1HtHks/0.jpg align="center")](https://www.youtube.com/watch?v=Gdgma1HtHks)

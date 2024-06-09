@@ -72,7 +72,7 @@ I hope this deep dive gives you valuable insights into securing your application
 
 ---
 
-***Disclaimer:** This blog post reflects my personal experiences and opinions.*
+_**Disclaimer:** This blog post reflects my personal experiences and opinions._
 
 _This blogs original content is based off of the following [YouTube Video](https://www.youtube.com/watch?v=Nz7WCh9HQpo):_
 [![What is SAST and DAST?](https://img.youtube.com/vi/Nz7WCh9HQpo/0.jpg)](https://www.youtube.com/watch?v=Nz7WCh9HQpo)

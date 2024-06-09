@@ -1,6 +1,10 @@
 # The DSB Digest
 
-<p align="center"><img src="./assets/readme_diagrams/Default%20Banner.svg" /></p>
+<!-- markdownlint-disable MD033 -->
+
+<p align="center"><img src="./assets/readme_diagrams/Default%20Banner.svg" alt="DSB Digest Logo"/></p>
+
+<!-- markdownlint-enable MD033 -->
 
 ## Overview
 
