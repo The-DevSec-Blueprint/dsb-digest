@@ -1,10 +1,10 @@
-name: "Black (FMT) Check - Python"
+name: "Format Checks"
 
 on:
   workflow_call:
 
 jobs:
-  format_check:
+  py_black_fmt_check:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,3 +19,4 @@ jobs:
   
     - name: Format Check
       run: black --check src/
+      

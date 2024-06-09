@@ -6,13 +6,13 @@ on:
 
 jobs:
   run-format-check:
-    uses: ./.github/workflows/black-fmt-check.yml
+    uses: ./.github/workflows/format-check.yml
     permissions:
       pull-requests: write
       contents: read
       
   run-linting-check:
-      uses: ./.github/workflows/pylint-check.yml
+      uses: ./.github/workflows/linting-check.yml
       permissions:
         pull-requests: write
     
