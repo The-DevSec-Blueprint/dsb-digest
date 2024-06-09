@@ -13,13 +13,17 @@ seriesName: SAST and DAST Scanning with Docker
 
 ## Introduction
 
-Hey there, Damien here from DevSecBlueprint! In today’s blog post, we will be diving into DAST scanning with OWASP ZAP and Docker. If you’re just starting out with Dynamic Application Security Testing (DAST), I highly recommend watching my previous video on SAST and DAST concepts to lay down a foundational understanding.
+Hey there, Damien here from DevSecBlueprint! In today’s blog post, we will be diving into DAST
+scanning with OWASP ZAP and Docker. If you’re just starting out with Dynamic Application Security
+Testing (DAST), I highly recommend watching my previous video on SAST and DAST concepts to lay down
+a foundational understanding.
 
 Without further ado, let’s get right into the topic at hand.
 
 ## Prerequisites
 
-Before we get started with the nuts and bolts of OWASP ZAP and Docker, there are a couple of prerequisites that need to be installed on your local machine:
+Before we get started with the nuts and bolts of OWASP ZAP and Docker, there are a couple of
+prerequisites that need to be installed on your local machine:
 
 1. **Docker**: We will be running OWASP ZAP in a Docker container.
 2. **Git**: Required for cloning repositories.
@@ -29,17 +33,22 @@ Having these installed will make the process smoother and more efficient.
 
 ## What is OWASP ZAP?
 
-OWASP ZAP (Zed Attack Proxy) is a highly popular open-source penetration testing tool designed to help developers and security professionals find vulnerabilities in their web applications. Key features of OWASP ZAP include:
+OWASP ZAP (Zed Attack Proxy) is a highly popular open-source penetration testing tool designed to
+help developers and security professionals find vulnerabilities in their web applications. Key
+features of OWASP ZAP include:
 
-- Identifies a wide range of vulnerabilities, including those within the OWASP Top 10 such as security misconfigurations, SQL injection, and cross-site scripting.
+- Identifies a wide range of vulnerabilities, including those within the OWASP Top 10 such as
+  security misconfigurations, SQL injection, and cross-site scripting.
 - Capable of both **Active** and **Passive** scans.
 
 ### Active vs Passive Scans
 
 Active and passive are two types of scanning modes in ZAP:
 
-- **Passive Scans**: These scans check the HTTP request application's response for known indicators without attempting to penetrate the application.
-- **Active Scans**: These scans actively inject requests that test for vulnerabilities, and are more effective but pose a risk of taking down the application.
+- **Passive Scans**: These scans check the HTTP request application's response for known indicators
+  without attempting to penetrate the application.
+- **Active Scans**: These scans actively inject requests that test for vulnerabilities, and are more
+  effective but pose a risk of taking down the application.
 
 ![Active vs Passive Scans](path/to/Active-vs-Passive-Scans-diagram.png)
 
@@ -47,11 +56,14 @@ It’s recommended to use passive scans in a production environment to minimize 
 
 ## Docker Basics
 
-Docker is a platform that allows us to package and run applications in an isolated environment called a container. This isolation offers several benefits, including security, ease of deployment, and the ability to run multiple containers simultaneously.
+Docker is a platform that allows us to package and run applications in an isolated environment
+called a container. This isolation offers several benefits, including security, ease of deployment,
+and the ability to run multiple containers simultaneously.
 
 ### Key Concepts
 
-- **Container**: A lightweight standalone executable package that includes everything needed to run the application.
+- **Container**: A lightweight standalone executable package that includes everything needed to run
+  the application.
 - **Dockerfile**: A text document containing instructions to build a Docker image.
 - **Image**: A read-only template used to create Docker containers.
 
@@ -76,7 +88,8 @@ We will use Docker Compose to set up the necessary environment:
 docker-compose up -d
 ```
 
-The `-d` flag runs the container in detached mode, but if you want to see real-time logs, you can run:
+The `-d` flag runs the container in detached mode, but if you want to see real-time logs, you can
+run:
 
 ```bash
 docker-compose up
@@ -88,7 +101,8 @@ To ensure the environment is up and running, navigate to `http://localhost` in y
 
 ### Executing the Scan
 
-Now, let’s run an OWASP ZAP scan using Docker. The following command mounts your current directory to the Docker container and runs a full active scan:
+Now, let’s run an OWASP ZAP scan using Docker. The following command mounts your current directory
+to the Docker container and runs a full active scan:
 
 For Windows:
 
@@ -126,7 +140,8 @@ Open `zap_report.html` in a web browser:
 
 ### Interpreting the Report
 
-The report will provide a summary of the identified alerts, their risk levels, and instances. Here are a few common vulnerabilities you might find:
+The report will provide a summary of the identified alerts, their risk levels, and instances. Here
+are a few common vulnerabilities you might find:
 
 - **SQL Injection**:
 
@@ -143,8 +158,11 @@ The report will provide a summary of the identified alerts, their risk levels, a
 
 ## Conclusion
 
-Thank you for following along with this comprehensive guide on DAST scanning using OWASP ZAP and Docker. We covered everything from setting up the environment to running scans and interpreting the results.
+Thank you for following along with this comprehensive guide on DAST scanning using OWASP ZAP and
+Docker. We covered everything from setting up the environment to running scans and interpreting the
+results.
 
-If you have any questions, comments, or feedback, feel free to reach out. Don’t forget to like, subscribe, and comment on my channel. Stay tuned for more insightful content!
+If you have any questions, comments, or feedback, feel free to reach out. Don’t forget to like,
+subscribe, and comment on my channel. Stay tuned for more insightful content!
 
 _Happy Scanning!_
