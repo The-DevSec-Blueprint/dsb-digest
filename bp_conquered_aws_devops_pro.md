@@ -143,9 +143,13 @@ see you in the cloud!
 
 _**Disclaimer:** This blog post reflects my personal experiences and opinions._
 
+<!-- markdownlint-disable MD013 -->
+
 _This blogs original content is based off of the following
 [YouTube Video](https://www.youtube.com/watch?v=lKm4lYMXLvg&t=1s):_
 [![How To Pass the AWS Certified DevOps - Professional (DOP-C02) Exam in 60 Days](https://img.youtube.com/vi/lKm4lYMXLvg/0.jpg align="center")](https://www.youtube.com/watch?v=lKm4lYMXLvg)
+
+<!-- markdownlint-enable MD013 -->
 
 _All images located in the blog post have been sourced from different places. Click on the image to
 get redirected to the original source._
