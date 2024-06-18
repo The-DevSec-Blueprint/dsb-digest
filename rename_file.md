@@ -1,4 +1,3 @@
-```markdown
 ---
 title: 'Tips and Tricks to Pass the AWS Certified Solutions Architect Associate Exam'
 slug: 'aws-certified-solutions-architect-associate-tips'
@@ -130,7 +129,3 @@ Based on my experience, pay special attention to these services:
 Thank you so much for your support! I hope you found this guide valuable and insightful in your journey to becoming an AWS Certified Solutions Architect Associate. If you found this helpful, please like, subscribe, and share it with others who might benefit. Don't forget, all the important points and resources are located in the description below.
 
 Until next time, later!
-
-```
-
-You can replace placeholders such as `path/to/image.jpg`, `path/to/well-architected-image.jpg`, `path/to/exam-format-image.jpg`, etc., with the actual paths to your images. Also, feel free to adjust the content and structure as needed!
