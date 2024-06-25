@@ -46,7 +46,7 @@ The certification helps you create robust, fault-tolerant, and scalable solution
 - **Format:** 65 questions (multiple choice or multiple response)
 - **Testing Options:** AWS-approved testing center or online
 
-![Exam Information](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assetshow_i_passed_aws_saa/exam_cost_info.png align="center")
+![Exam Information](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/how_i_passed_aws_saa/exam_cost_info.png align="center")
 
 ### Exam Guide
 
@@ -129,6 +129,6 @@ Thank you for reading, and best of luck if you're pursuing this certification!
 
 _**Disclaimer:** This blog post reflects my personal experiences and opinions. This blogs original content is based off of the following video:_
 
-[![Video](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/sast_scanning_with_docker_sonarqube/vid_thumbnail.svg align="center")](https://www.youtube.com/watch?v=o9QPhxInQFQ)
+[![Video](https://raw.githubusercontent.com/The-DevSec-Blueprint/dsb-digest/main/assets/how_i_passed_aws_saa/vid_thumbnail.svg align="center")](https://www.youtube.com/watch?v=o9QPhxInQFQ)
 
 _All images located in the blog post have been sourced from different places. Click on the image to get redirected to the original source._
